@@ -6,11 +6,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "CMSC ###: COURSE TITLE"
+title                    : "CMSC 270: Data Structures"
 title_separator          : "-"
-subtitle                 : "Term YYYY"
-description              : "Materials for the [term] term of [course] at Lawrence University. Taught by Acacia Ackles."
-repository               : "alackles/template-course-website"
+subtitle                 : "Spring 2023"
+description              : "Materials for the 2023 term of CMSC 270: Data Structures at Lawrence University. Taught by Acacia Ackles."
+repository               : "alackles/CMSC-270-ST-23"
 # Site Author
 author:
   name: Acacia Ackles
