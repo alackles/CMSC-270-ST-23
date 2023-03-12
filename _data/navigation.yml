@@ -1,0 +1,7 @@
+main:
+  - title: "Syllabus"
+    url: /syllabus/
+  - title: "Schedule"
+    url: /schedule/
+  - title: "Self-Evaluation"
+    url: /self-eval/
