@@ -11,10 +11,10 @@ toc_icon: "cog"
 | Title | COURSE TITLE |
 | ----- | ----------- |
 | Instructor | Dr. Acacia Ackles |
-| Code | CMSC ### |
+| Code | CMSC 270 |
 | Units | 6 |
 | Room | Briggs 419 |
-| Time | TIME |
+| Time | MWF 1:50 PM - 3:00 PM |
 
 ### Course Materials
 
@@ -22,31 +22,47 @@ toc_icon: "cog"
 | ----- | ----- |----- | ---- |
 | Gradebook | Canvas | [Link][canvas] | Learning Hub
 | Reading Portal | Persuall | via Canvas |  Reading 
-| Textbook | TITLE | [Link][textbook] | _Free to read; tracked on Perusall_
+| Textbook | _Open Data Structures_ by Pat Morin | [Link][textbook] | _Free to read; tracked on Perusall_
 
 You will also need a **personal laptop** to bring to class each day. If this is a barrier for you, please let me know ASAP.
 
 ### Student Drop-In Hours
 
 | Office | Time | Days |
-| ----- | ----- | ----- |
-| Steitz 131 (NOT Briggs) | TIME | DAYS
+| ----- | ----- | -----
+| Steitz 131 (NOT Briggs) | 9:00 AM - 11:00 AM | Tuesday & Friday
+
+_Also by Appointment._
 
 These are the times when my schedule is blocked off for nothing but to talk to you. So please do come by! 
 
-If you are busy during these times, you can always schedule an appointment with me instead. Or you can swing by Steitz and see if my door is open; if it is, you are completely welcome to stop by. 
+If you are busy during these times, you can always schedule an appointment with me instead by **sending me an email**. Or you can swing by Steitz and see if my door is open; if it is, you are completely welcome to stop by. 
 
 ## Overview
 
-Course Overview.
+**Description:** A study of advanced programming and an introduction to data structures. Topics focus on programming skills needed for the design and implementation of standard data structures such as lists, trees, and graphs and their associated algorithms. Additional topics include recursion, analysis of algorithms, and advanced aspects of object-oriented programming in the C++ language.
+
+So, what does that mean? 
+
+In this course we are moving from asking and answering questions like "how do I do this?" to "_why_ would I do this?" or "_is it possible_ to do this?", or even, "what is _the best way_ to do this?" 
+
+In our case, "this" refers to any complicated programming task that relates to _data_: accessing elements of a large database, adding yourself to a waiting list, designing a structure that can easily find and return the minimal element. Computers can hold a lot of information: it is our job in this class to learn how to effectively and efficiently work with our computers to access that information and solve the problems in front of us. 
 
 ## Learning Goals
 
 By the end of this course, you should be able to do the following: 
 
-Learning Goals Listed Here.
-- L1: CONTENT GOAL (primary)
-- L2: CONTENT GOAL (secondary)
+- **L1: Design and Implementation of Basic Data Structures.** Be able to design in theory and implement in C++ a variety of basic data structures, including:
+  - Arrays, Vectors, Lists, Linked Lists
+  - Queues and Stacks
+  - Binary Trees 
+  - Red-Black Trees
+  - Heaps
+  - Hashes and Hash Maps
+- **L2: Applications of Basic Data Structures.** Be able to analyze the strengths and weakensses of a data structure for a particular use case. Identify which data structure is appropriate for a possible use cases, including pros and cons. Topics related to this learning objective include:
+  - Time and Space Complexity Analysis
+  - Searching Algorithms
+  - Sorting Algorithms 
 - **L3: Reading and Writing Computationally.** Be able to read written text (documentation, textbooks, online answers) about the course content and apply the lessons learned in your programming work; be able write your own plain language explanation of your own programming work. 
 - **L4: Failure.** Take risks and push the boundaries of your understanding to the point where you are not always succeeding at a given problem. Stray out of your comfort zone and be able to evaluate your failures and your mistakes in a holistic way. Be able to reroute back-on-track when failure happens through a variety of means (troubleshooting, asking for help, taking a different approach, scaling back, scaling up). 
 - **L5: Reflection and Metacognition.** Be able to self-evaluate and self-reflect on your work, your learning, and your understanding or lack thereof. Identify where you struggle, where you excel, and how you know what you know. 
@@ -171,6 +187,9 @@ For more on ungrading, see ([5][blum]).
 
 
 _Parts of this syllabus is based heavily on one by Dr. Anya E. Vostinar. Thanks!_
+
+[canvas]: https://lawrence.instructure.com/
+[textbook]: https://opendatastructures.org/ods-cpp.pdf
 
 [malan]: https://dl.acm.org/doi/10.1145/3408877.3432461
 [berns]: https://dl.acm.org/doi/10.1145/3328778.3366956
