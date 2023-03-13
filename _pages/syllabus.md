@@ -8,7 +8,7 @@ toc_icon: "cog"
 
 ## Front Matter
 
-| Title | COURSE TITLE |
+| Title | Data Structures |
 | ----- | ----------- |
 | Instructor | Dr. Acacia Ackles |
 | Code | CMSC 270 |
@@ -63,41 +63,28 @@ By the end of this course, you should be able to do the following:
   - Time and Space Complexity Analysis
   - Searching Algorithms
   - Sorting Algorithms 
-- **L3: Reading and Writing Computationally.** Be able to read written text (documentation, textbooks, online answers) about the course content and apply the lessons learned in your programming work; be able write your own plain language explanation of your own programming work. 
+- **L3: Reading and Writing Computationally.** Be able to read written text (documentation, textbooks, online answers) about the course content and apply the lessons learned in your programming work; be able write your own plain language explanation of your own programming work; be able to understand and implement pseudocode in a language of your choice.
 - **L4: Failure.** Take risks and push the boundaries of your understanding to the point where you are not always succeeding at a given problem. Stray out of your comfort zone and be able to evaluate your failures and your mistakes in a holistic way. Be able to reroute back-on-track when failure happens through a variety of means (troubleshooting, asking for help, taking a different approach, scaling back, scaling up). 
 - **L5: Reflection and Metacognition.** Be able to self-evaluate and self-reflect on your work, your learning, and your understanding or lack thereof. Identify where you struggle, where you excel, and how you know what you know. 
 
 ## Grades and Evaluation
 
-This class is based on an [ungrading][blum] model. In this course, I want you to focus on what you are learning and how you are learning it, and _not_ on how many points your work is worth. Therefore, none of your reading, homework, quizzes, or projects will be assigned a numerical score. You will instead receive **feedback** from me and be encouraged to **revise** any work if either you or I feel you could gain additional understanding through revision. 
+This class is based on an [ungrading][blum] model. In this course, I want you to focus on what you are learning and how you are learning it, and _not_ on how many points your work is worth. 
 
-### Biweekly Checks
+Therefore, none of your reading, homework, quizzes, or projects will be assigned a numerical score. You will instead receive **feedback** from me along with **check-in meetings** and be encouraged to **revise** any work if either you or I feel you could gain additional understanding through revision. 
 
-To clear up any murky confusion about what your "current grade" is or how you are currently doing with the objectives for the course, we will hold biweekly (every other week) meetings. These will be 20-minute meetings focused on your learning. What are you doing to prepare for class? What are you doing to practice the material? Where are you still struggling? How can we make sure you are on track for the outcome you want for this class--whether in terms of a grade or in terms of content knowledge? 
-
-Each of these biweekly checks comes with a short self-evaluation worksheet and an opportunity for you to practice giving yourself a grade for the course. You'll have **four** of these checks over the course of the term, so your final grade hopefully should not come as a surprise to either of us!
-
-### Final Grades 
-
-Of course, at the end of the day, we still have to assign a letter grade for your transcript. 
-
-You will complete a **final portfolio** for the course in lieu of a final exam or final project. This portfolio will consist of "evidence" for each learning objective: what assignments, projects, artefacts, etc. do you have to demonstrate that you have met or exceeded the learning outcomes for the course? Based on your answers to those questions, you will **assign yourself a final grade with justification**.
-
-Here is a guideline for what each letter grade might mean in terms of this portfolio. 
+At the end of the term you will complete a **self-evaluation portfolio** to assign yourself a grade with evidence from the course. In brief, grades roughly work as follows:
 
 | Base Grade | Looks like... |
 | ------ | ------- |
-| A | Consistently **meets** and often **exceeds** the expectations for all learning outcomes for the course  |
-| B | Consistently **meets** the expectations for all learning outcomes for the course |
-| C | Often, but not always, **meets** the expectations for all learning outcomes for the course, or consistently **meets** expectations for **most** learning outcomes and **shows progress towards** other outcomes |
-| D | **Shows progress towards** the expectations for all learning outcomes for the course |
-| F | Does not provide sufficient evidence of progress towards learning objectives to assign a grade for the course | 
+| A | Consistently **achieves** and often **excels at** all learning outcomes for the course  |
+| B | Consistently **achieves** all learning outcomes for the course |
+| C | Often, but not always, **achieves** all learning outcomes for the course, or consistently **achieves** the basic standards for **most** learning outcomes and **shows progress towards** other outcomes |
+| D | **Shows progress towards** all learning outcomes for the course |
+| F | Does not provide sufficient evidence of progress towards learning objectives to gain credit for the course | 
 
-**+/- Grades:** You may notice that Lawrence also has +/- grades. You should feel free to assign yourself a +/- grade if you feel you are "in between" two of the categories above. For example,someone who consistently meets minimum expectations and perhaps had one really exemplary homework that they went above-and-beyond on might assign themselves a B+.  
 
-**Exceptions:** Lawrence does not allow grades of A+. 
-
-Further details about the format of your final portfolio can be found in the Self-Evaluation tab. 
+Further details about grades, check-ins, feedback, and the format of your final portfolio can be found in the Self-Evaluation tab. 
 
 ## Collaboration and Plagiarism Policy
 
@@ -139,7 +126,9 @@ The reason for a full ban on AI-generated code is because this code is currently
 
 ### Late Work Policy
 
-Late work is accepted up until the final day of the term. 
+Work turned in late without an extension won't receive feedback; however, work can receive unlimited rounds of feedback upon request up until the last day of the term. Therefore, it's always best to turn in _something_ rather than _nothing_, since then you can continue to work at your understanding if something doesn't quite make sense. 
+
+If you need an extension on an assignment for any reason, **leave a comment on Canvas** for the appropriate assignment and give yourself a new due date. Work turned in by your self-selected due date will be considered "on time". 
 
 ### Attendance
 
