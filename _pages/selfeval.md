@@ -69,7 +69,6 @@ Achievement and excellence looks different for everybody, so there is no magic c
   - Do you regularly attend/communicate about your check-in meetings and participate in self-reflection beforehand? 
   - **Excellence:** Have you done revision/reflection of assignments _that you succeeded at the first time_? Have you completed revisions/reflections that include changes _not suggested by me_? 
 
-
 ## Biweekly Checks
 
 To clear up any murky confusion about what your "current grade" is or how you are currently doing with the objectives for the course, we will hold biweekly (every other week) meetings. These will be 20-minute meetings focused on your learning. What are you doing to prepare for class? What are you doing to practice the material? Where are you still struggling? How can we make sure you are on track for the outcome you want for this class--whether in terms of a grade or in terms of content knowledge? 
@@ -82,18 +81,18 @@ Each of these biweekly checks comes with a short self-evaluation worksheet and a
 
 Meets in weeks **2**, **4**, **6**, and **8**. 
 
-Check-in 1: Monday, April 3
-Check-in 2: Monday, April 17
-Check-in 3: Monday, May 1
-Check-in 4: Monday, May 15
+Check-in 1: Monday, April 3  
+Check-in 2: Monday, April 17  
+Check-in 3: Monday, May 1  
+Check-in 4: Monday, May 15  
 
 ### 1 (mod 2) Group
 
 Meets in weeks **3**, **5**, **7**, and **9(ish)**.
 
-Check-in 1: Monday, April 10
-Check-in 2: Monday, April 24
-Check-in 3: Monday, May 8
+Check-in 1: Monday, April 10  
+Check-in 2: Monday, April 24  
+Check-in 3: Monday, May 8  
 Check-in 4: **Friday, May 19** 
 
 Note that this group meets on the final day of Week 8 instead of the start of Week 9 to allow students to take advantage of the Withdrawal period if necessary.
