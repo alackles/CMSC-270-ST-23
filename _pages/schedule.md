@@ -20,27 +20,27 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 4/5 | _NO CLASS: Instructor Absence_ |
 | F 4/7 | _NO CLASS: Instructor Absence_ |
 | **Week 3** | **Lists and Pointers** | | |
-| M 4/11 | Pointers | HWK 1 | HWK 2 |
-| W 4/13 | Singly-Linked Lists | | |
-| F 4/15 | Doubly-Linked Lists
+| M 4/10 | Pointers | HWK 1 | HWK 2 |
+| W 4/12 | Singly-Linked Lists | | |
+| F 4/14 | Doubly-Linked Lists
 | **Week 4** | **Lists and Classes** |  |  |
 | M 4/17 | Group Exam | HWK 2 | Group Exam Revisions |
 | W 4/19 | Templates: List and Node Classes | | |
 | F 4/21 | Overrides: List and Node Casses
 | **Week 5** | **Search and Sort Round 1** | | |
-| M 4/24 | Individual Exam | Group Exam Revisions | HWK 3|
+| M 4/24 | Individual Exam | Group Exam Revisions | |
 | W 4/26 | Searching & Sorting | | |
 | F 4/28 | Search and Sort Competition | | |
 | **Week 6** | **Binary Trees** | | |
-| M 5/1 | Binary Trees | HWK 3 |  HWK 4| 
+| M 5/1 | Binary Trees | |  HWK 3| 
 | W 5/3 | Binary Search Trees | | | |
 | F 5/5 | _NO CLASS: Reading Period_ | | |
 | **Week 7** | **AVL and Red-Black Trees** | | |
-| M 5/8 | Binary Tree Traversal | HWK 4 | HWK 5 |
+| M 5/8 | Binary Tree Traversal | HWK 3 | HWK 4 |
 | W 5/10 | AVL Trees | | |
 | F 5/12 | Red-Black Trees | | |
 | **Week 8** | **Heaps** | | |
-| M 5/15 | Group Exam | HWK 5 | Group Exam Revisions |
+| M 5/15 | Group Exam | HWK 4 | Group Exam Revisions |
 | W 5/17 | Heaps | | |
 | F 5/19 | Heaps cont'd | | |
 | **Week 9** | **Hashing and HashMaps** | | | 
