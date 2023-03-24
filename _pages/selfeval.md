@@ -6,6 +6,10 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
+[Portfolio Template](https://github.com/alackles/template-270-portfolio)
+
+---
+
 First of all -- ungrading is strange, and often confusing for students, and I'm aware of that. But I also fundamentally believe that it is the most authentic way to support your learning--after all, it is rare after school that you'll get some sort of numerical or even letter-based grade to evaluate how much you know. Most of this evaluation will come from yourself and your own work, and we prepare students very poorly to do that kind of self-evaluation. So you have a space to try out here, with guiderails, and to assess how much you are really learning. 
 
 ## Final Portfolio
@@ -14,7 +18,7 @@ You will complete a **final portfolio** for the course in lieu of a final exam o
 
 ### Portfolio Guidelines
 
-This final portfolio will be a **private GitHub repository** turned in as a link to Canvas. Here is a $TEMPLATE for the portfolio which outlines the requirements. 
+This final portfolio will be a **private GitHub repository** turned in as a link to Canvas. Here is a [template](https://github.com/alackles/template-270-portfolio) for the portfolio which outlines the requirements. 
 
 In brief, your portfolio will consist of:
 
