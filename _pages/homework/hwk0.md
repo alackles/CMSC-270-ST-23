@@ -1,6 +1,9 @@
 ---
 title: Homework 0
 permalink: /homework/hwk0
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 # Overview
