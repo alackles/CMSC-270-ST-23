@@ -12,7 +12,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | Date	| Topics	| Due (Before Class) |	Assigned (After Class) |
 | ------- | --------------- | ------------- | -------------- |
 | **Week 1** | **Math and C++** | | |
-| M 3/27 | Intro, Expectations, (un)Grades | | HWK 0 |
+| M 3/27 | Intro, Expectations, (un)Grades | | [HWK 0][hwk0] |
 | W 3/29 | Mathematical Background | | |
 | F 3/31 | C++ | HWK 0 | |
 | **Week 2** | **Arrays** | | |
@@ -52,4 +52,6 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 5/31 | Searching & Sorting | | | 
 | F 6/2 | Search and Sort Rematch | |
 
-**Final Portfolios Due FINALS DATE by 5:30 PM**
+**Final Portfolios Due Wednesday 6/7 by 5:30 PM**
+
+[hwk0]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk0
