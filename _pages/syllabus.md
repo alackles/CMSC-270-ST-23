@@ -108,7 +108,6 @@ The following are **always** allowed on homeworks, labs, and projects.
 
 The following are never allowed.
 
-- Posting actual code on Piazza where other students can see it (posting it privately so I can read it is okay)
 - Copying any code that another student has written
 - Copying code from online without attribution
 - Posting solutions to the course materials to online aggregation sites (e.g. Chegg) or using solutions from such sites
