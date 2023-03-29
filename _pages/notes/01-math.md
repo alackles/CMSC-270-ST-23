@@ -1,6 +1,6 @@
 ---
 title: NOTES: Mathematical Background
-permalink: /notes/01/01-math
+permalink: /notes/01-math
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
