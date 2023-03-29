@@ -13,7 +13,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | ------- | --------------- | ------------- | -------------- |
 | **Week 1** | **Math and C++** | | |
 | M 3/27 | Intro, Expectations, (un)Grades | | [HWK 0][hwk0] |
-| W 3/29 | Mathematical Background [[3-29]][w1d2] | | |
+| W 3/29 | Mathematical Background [(3-29)][w1d2] | | |
 | F 3/31 | C++ | Perusall && HWK 0 | |
 | **Week 2** | **Arrays** | | |
 | M 4/3 | Array Stacks, Queues, Deques | Perusall | HWK 1 | 
