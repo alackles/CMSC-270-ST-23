@@ -26,12 +26,9 @@ author:
 # Reading Files
 include:
   - _pages
-  - guides
-  - hwk
-  - lectures
-  - labs
-  - quizzes
+  - homework
   - notes
+  - 01
 exclude:
   - Gemfile
   - LICENSE

@@ -56,4 +56,4 @@ This is a rough schedule of topics for each day, and the release and due dates f
 
 [hwk0]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk0
 
-[w1d2]: https://alackles.github.io/CMSC-270-ST-23/notes/01-math
+[w1d2]: https://alackles.github.io/CMSC-270-ST-23/notes/01/01-math
