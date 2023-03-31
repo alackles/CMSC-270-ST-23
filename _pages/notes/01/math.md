@@ -1,5 +1,5 @@
 ---
-title: NOTES: Mathematical Background
+title: Mathematical Background
 permalink: /notes/01/math/
 toc: true
 toc_label: "Table of Contents"
