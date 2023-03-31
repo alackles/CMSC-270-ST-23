@@ -6,6 +6,18 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
+# Questions from the Reading
+
+> What is an abstract data type vs. an implementation vs. an interface? Are abstract data types the same across languages? Are implementations? Are interfaces? 
+
+> How do you get a "smallest" element for something that is not an integer/number? How do you sort elements?
+
+> Big-O Runtime -- how do we get the total runtime? 
+
+## Quick Exercise
+
+The book describes six basic operations that are implemented in all of the data structures we will work with. What are they?
+
 # Lecture Notes
 
 You should have some experience working with Java. Luckily, C++ is a very similar language; both are based on C and share a number of important features and similar syntax. The goal for today's class is to get some exposure to the similarities and differences between the two languages. 
@@ -163,6 +175,7 @@ int main() {
 ```
 
 Big differences to note:
+- **Destructor**
 - No required use of 'this' keyword
 - Explicitly must include the partner class 
 - `public` is treated like a scope in the class, not like a keyword on individual functions or attributes 
