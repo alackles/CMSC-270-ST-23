@@ -13,8 +13,8 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | ------- | --------------- | ------------- | -------------- |
 | **Week 1** | **Math and C++** | | |
 | M 3/27 | Intro, Expectations, (un)Grades | | [HWK 0][hwk0] |
-| W 3/29 | Mathematical Background [(3-29)][w1d2] | | |
-| F 3/31 | C++ | Perusall && HWK 0 | |
+| W 3/29 | [Mathematical Background][w1d2] | | |
+| F 3/31 | [C++][w1d3] | Perusall && HWK 0 | |
 | **Week 2** | **Arrays** | | |
 | M 4/3 | Array Stacks, Queues, Deques | Perusall | HWK 1 | 
 | W 4/5 | _NO CLASS: Instructor Absence_ |
@@ -56,4 +56,5 @@ This is a rough schedule of topics for each day, and the release and due dates f
 
 [hwk0]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk0
 
-[w1d2]: https://alackles.github.io/CMSC-270-ST-23/notes/01/01-math
+[w1d2]: https://alackles.github.io/CMSC-270-ST-23/notes/01/math/
+[w1d3]: https://alackles.github.io/CMSC-270-ST-23/notes/01/cpp/
