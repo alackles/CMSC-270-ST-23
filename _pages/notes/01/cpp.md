@@ -1,5 +1,5 @@
 ---
-title: NOTES: Java to C++
+title: Java to C++
 permalink: /notes/01/cpp/
 toc: true
 toc_label: "Table of Contents"
