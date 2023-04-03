@@ -177,7 +177,7 @@ For more on ungrading, see ([5][blum]).
 _Parts of this syllabus is based heavily on one by Dr. Anya E. Vostinar. Thanks!_
 
 [canvas]: https://lawrence.instructure.com/
-[textbook]: https://opendatastructures.org/ods-cpp.pdf
+[textbook]: https://opendatastructures.org/ods-python.pdf
 
 [malan]: https://dl.acm.org/doi/10.1145/3408877.3432461
 [berns]: https://dl.acm.org/doi/10.1145/3328778.3366956
