@@ -1,6 +1,6 @@
 ---
 title: ArrayStack, ArrayQueue, ArrayDeque
-permalink: /notes/01/arrays/
+permalink: /notes/02/arrays/
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"

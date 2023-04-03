@@ -28,7 +28,6 @@ include:
   - _pages
   - homework
   - notes
-  - 01
 exclude:
   - Gemfile
   - LICENSE
