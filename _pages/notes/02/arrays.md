@@ -10,6 +10,12 @@ We start our discussion of data structures with some array-based implementations
 
 # Questions from the Reading
 
+> Big-Oh notation, again
+
+> Purpose of resizing an array -- when do we know to resize or not? 
+
+> Modular arithmetic and arrays -- why? 
+
 # Basics of Array-Based Structures
 
 ## ArrayStack
