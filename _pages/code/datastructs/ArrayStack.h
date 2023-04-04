@@ -2,11 +2,12 @@
 
 template<class T>               // Allows this data structure to use any given type as long as it fits the operations
 class ArrayStack {
-    protected:                  // Can only be accessed by 'friend' classes; will see more about this soon 
-        int _n;                // The underscores are convention to show these are member variables for the class
-        T *_a;
+    protected:                    // Can only be accessed by 'friend' classes; will see more about this soon 
+        // underscores are convention to show that these are member variables
+        int _n;                  // number of elements
+        T *_a;                   // backing array
         int _size;               // total size of array, NOT number of elements
-        void resize();
+        void resize();           // protected resize op
     public:
         // Constructor
         ArrayStack(int n);
@@ -20,7 +21,7 @@ class ArrayStack {
 
         // Add at specified place, add at top of stack
         void add(int i, T x);
-        void add(T x) { add(size(), x); }
+        void add(T x) { add(_n, x); }
 
         // Remove at specified place 
         T remove(int i);
@@ -42,11 +43,13 @@ class ArrayStack {
 //      for the constructor, we initialize a new array as the "backing array"
 //      these constructors/destructors can be identical for any array-based implementation
 template<class T>
-ArrayStack<T>::ArrayStack(int n) {
-    _a = new T[n];
-    _size = sizeof(_a) / sizeof(int) // For more information, see https://www.w3schools.com/cpp/cpp_arrays_size.asp
+ArrayStack<T>::ArrayStack(int size) {
+    _a = new T[size];
+    _size = size; 
+    _n = 0;
 }
 
+// default destructor just trashes everything
 template<class T>
 ArrayStack<T>::~ArrayStack() {}
 
@@ -54,12 +57,12 @@ ArrayStack<T>::~ArrayStack() {}
 // book: 2.1.2
 template<class T>
 void ArrayStack<T>::resize() {
-    b = T[max(1, 2*_n)]
+    T * b = new T[max(1, 2*_n)];
     for (int i = 0; i < _n; i++) {
-        b[i] = _a[i]
+        b[i] = _a[i];
     }     
     _a = b;
-    _size = sizeof(_a) / sizeof(int);
+    _size = max(1, 2*_n);
 }
 
 // get & set operations
@@ -85,7 +88,7 @@ void ArrayStack<T>::add(int i, T x) {
         resize();
     }
     // shift all elements of the array that were to the right of index i one space to the right to make room for the new element
-    for (int j = n; j > i; j--) {
+    for (int j = _n; j > i; j--) {
         _a[j] = _a[j-1];
     }
     // insert the new element 
@@ -128,6 +131,15 @@ T ArrayStack<T>::pop() {
 }
 
 
+// Clear out the stack 
+template<class T>
+void ArrayStack<T>::clear() {
+    _n = 0;                    // no more elements 
+    T *b = new T[1];           // create new, single-element, empty array
+    _a = b;                    // overwrite existing array
+}
+
+
 // --- Little helper functions --- 
 template<class T>
 int ArrayStack<T>::getSize() {
@@ -138,7 +150,7 @@ template<class T>
 void ArrayStack<T>::display() {
     std::cout << "[";
     for (int i = 0; i < _n; i++) {
-        std::cout << " " << i;
+        std::cout << " " << _a[i];
     }
     for (int j = _n; j < _size; j++) {
         std::cout << " -";
