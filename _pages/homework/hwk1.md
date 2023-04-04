@@ -14,6 +14,8 @@ This is a homework assignment to get used to implementing data structures in C++
 
 Feel free to reference and use as much of the [ArrayStack implementation](https://github.com/alackles/CMSC-270-ST-23/tree/main/_pages/code/datastructs) from class as you wish. Components and ideas from the ArrayStack implementation can be used without citation.
 
+Your homework is due **Monday, April 10, before class (1:50 PM)**. If you get stuck, it is better to turn in your incomplete homework for feedback and guidance than to try to work on it a bit longer to make it "perfect". Perfect is the enemy of done!
+
 ## Q1: ArrayQueue
 
 Implement an array-based queue in C++. Your implementation should be based on Section 2.3 of the textbook. In particular, your ArrayQueue should implement the following operations for an array of **generic type**:
