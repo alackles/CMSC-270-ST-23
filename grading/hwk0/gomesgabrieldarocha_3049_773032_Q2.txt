@@ -1,0 +1,13 @@
+a) log2(x) = 8 --> 2^8 = x --> xx = 256
+
+b)log5(x) = log5(2) + 25 --> have everything be an exponent of base 5
+    --> 5^log5(x) = 5^(log5(2) + 25)
+    --> x = 5^log5(2) * 5^25
+    --> x = 2 * 5^25
+
+c) log4(32) = x
+    --> 4^x = 32
+    --> (2^2)^x = 2^5
+    --> 2^2x = 2^5
+    --> 2x = 5
+    --> x = 5/2

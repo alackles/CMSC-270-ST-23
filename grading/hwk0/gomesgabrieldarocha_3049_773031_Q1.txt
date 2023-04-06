@@ -1,0 +1,6 @@
+a) as x goes towards infinity 1 will grow at a higher speed. That is due to its largest term being to the third power,
+    compared to the second power in the second equation
+
+b) 1 grows faster. The same reason as before, x^7 grows faster than x^6, regardless of the influence of the other terms.
+
+c) 2 will grow faster. 1 has a growth rate of x^4, where as 2 is of 4x^4, meaning it will grow four times faster

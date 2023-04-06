@@ -1,0 +1,16 @@
+class Hello {
+    public static void change(String[] greet) {
+        greet[0] = "Howdy";
+    }
+    public static void main(String[] args) {
+        String[] greetings = {"Hi", "Hello", "Hey"};
+        change(greetings); 
+        // * ? * //
+    }
+}
+
+Answer:
+    The elements of the array will be {"Howdy", "Hello", "Hey"}
+    The reason why is because the main method runs first, therefore we initialize greetings as {"Hi", "Hello", "Hey"}.
+    Using the method change() with greetings as input, no matter what array is given, the first element will be replaced for "Howdy"
+    Thus leaving us with {"Howdy", "Hello", "Hey"} right after we call the method change(greetings)
