@@ -12,7 +12,7 @@ This is a homework assignment to get used to implementing data structures in C++
 
 **If you need to use outside resources**, that is okay as long as you **cite your source**. This can just be a link or a title and page number. 
 
-Feel free to reference and use as much of the [ArrayStack implementation](https://github.com/alackles/CMSC-270-ST-23/tree/main/_pages/code/datastructs) from class as you wish. Components and ideas from the ArrayStack implementation can be used without citation.
+Feel free to reference and use as much of the [ArrayStack implementation](https://github.com/alackles/CMSC-270-ST-23/tree/main/datastructs) from class as you wish. Components and ideas from the ArrayStack implementation can be used without citation.
 
 Your homework is due **Monday, April 10, before class (1:50 PM)** on Canvas. If you get stuck, it is better to turn in your incomplete homework for feedback and guidance than to try to work on it a bit longer to make it "perfect". Perfect is the enemy of done!
 
