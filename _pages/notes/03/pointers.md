@@ -100,7 +100,7 @@ auto finalval = *pa++*++*pb++ // this is terrible. don't ever do this. but you c
 
 **Hint:** Break this down so you are just doing one operation at a time. For example, what does `finalval = ++p` set `finalval` to? Print it to the console to check. What about `finalval = *++p`?
 
-Answer:
+## Answer
 
 The final line is equivalent to this parenthesized version:
 
@@ -108,7 +108,7 @@ The final line is equivalent to this parenthesized version:
 auto finalval = (*(pa++))*(++(*(pb++)));
 ```
 
-**Extension:**
+## Extension
 
 The following C++ program produces the output
 
