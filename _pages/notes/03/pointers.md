@@ -94,5 +94,5 @@ int a = 2;
 int b = 5;
 int * pa = &a;
 int * pb = &b;
-int finalval = *a++**++b++ // this is terrible. don't ever do this. but you can.
+int finalval = *pa++**++pb++ // this is terrible. don't ever do this. but you can.
 ```
