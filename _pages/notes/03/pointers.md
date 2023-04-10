@@ -1,6 +1,6 @@
 ---
 title: Pointers
-permalink: /notes/03/pointers
+permalink: /notes/03/pointers/
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"

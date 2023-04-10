@@ -20,7 +20,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 4/5 | _NO CLASS: Instructor Absence_ |
 | F 4/7 | _NO CLASS: Instructor Absence_ |
 | **Week 3** | **Lists and Pointers** | | |
-| M 4/10 | Pointers | Persuall && HWK 1 | [HWK 2][hwk2] |
+| M 4/10 | [Pointers][w3d1] | Persuall && HWK 1 | [HWK 2][hwk2] |
 | W 4/12 | Singly-Linked Lists | Persuall | |
 | F 4/14 | Doubly-Linked Lists (+ Work Day) | Persuall | |
 | **Week 4** | **Templates and Overrides** |  |  |
