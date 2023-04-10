@@ -96,4 +96,37 @@ int * pb = &b;
 auto finalval = *pa++*++*pb++ // this is terrible. don't ever do this. but you can.
 ```
 
-**Hint:** Break this down so you are just doing one operation at a time. For example, what does `finalval = ++p` set `finalval` to? Print it to the console to check. What about `finalval = *++p`? 
+**Hint:** Break this down so you are just doing one operation at a time. For example, what does `finalval = ++p` set `finalval` to? Print it to the console to check. What about `finalval = *++p`?
+
+Answer:
+
+The final line is equivalent to this parenthesized version:
+
+```cpp
+auto finalval = (*(pa++))*(++(*(pb++)));
+```
+
+**Extension:**
+
+The following C++ program produces the output
+
+```
+12
+78
+```
+
+Why doesn't it produce 12 twice? And where does the 78 come from?
+
+```cpp
+#include <iostream>
+
+int main() {
+    int a = 2;
+    int b = 5;
+    int *pa = &a;
+    int *pb = &b;
+    auto finalval = *pa++*++*pb++;
+    std::cout << finalval << "\n";
+    std::cout << *pa++*++*pb++ << std::endl;
+}
+```
