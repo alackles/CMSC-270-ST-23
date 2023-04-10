@@ -6,7 +6,7 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
-[Code for Today](https://github.com/alackles/CMSC-270-ST-23/tree/main/_pages/code/01/java-cpp)
+[Week 1 Code](https://github.com/alackles/CMSC-270-ST-23/tree/main/_pages/code/01/)
 
 # Questions from the Reading
 

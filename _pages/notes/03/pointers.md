@@ -6,6 +6,8 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
+[Week 3 Code](https://github.com/alackles/CMSC-270-ST-23/tree/main/_pages/code/03/)
+
 It's time to talk about pointers!
 
 Pointers are kind of notorious in C++, not because they are particularly difficult to _understand_...
