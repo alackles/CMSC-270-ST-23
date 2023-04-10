@@ -26,13 +26,13 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | **Week 4** | **Templates and Overrides** |  |  |
 | M 4/17 | Group Exam | HWK 2 | Group Exam Revisions |
 | W 4/19 | Templates and Overrides: Arrays | Persuall | |
-| F 4/21 | Templates and Overrides: Lists & Nodes | Persuall | |
+| F 4/21 | Templates and Overrides: Lists & Nodes | | |
 | **Week 5** | **Search and Sort Round 1** | | |
 | M 4/24 | Individual Exam | Group Exam Revisions | |
-| W 4/26 | Searching & Sorting | | |
+| W 4/26 | Searching & Sorting | Perusall | |
 | F 4/28 | Search and Sort Competition | | |
 | **Week 6** | **Binary Trees** | | |
-| M 5/1 | Binary Trees | Persuall |  HWK 3| 
+| M 5/1 | Binary Trees | Persuall |  HWK 3 | 
 | W 5/3 | Binary Search Trees | Persuall | | |
 | F 5/5 | _NO CLASS: Reading Period_ | | |
 | **Week 7** | **AVL and Red-Black Trees** | | |
