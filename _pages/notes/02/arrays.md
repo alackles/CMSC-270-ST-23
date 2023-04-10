@@ -34,7 +34,7 @@ Some stack-specific operations are:
   
 When we implement this with an array, we can implement `push()` as an `add(i, x)` operation and `pop()` as a `remove(i)` operation. Since we always know where we are pushing and popping from, and since add and remove are based on indices, and arrays have easy lookup for indices, pushing and popping are fast and easy with an array-based stack. 
 
-_See the [code](https://github.com/alackles/CMSC-270-ST-23/blob/main/_pages/code/02/arrays/ArrayStack.h) for today's lecture fora  C++ implementation of ArrayStack._
+_See the [data structures collection](https://github.com/alackles/CMSC-270-ST-23/blob/main/datastructs/ArrayStack.h) for today's lecture for a C++ implementation of ArrayStack._
 
 ## ArrayQueue
 
