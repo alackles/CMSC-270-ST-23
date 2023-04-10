@@ -71,13 +71,12 @@ In the above example, we could do something like this.
 double example = 4.1;
 double value = example; // this is fine
 double * address = &example; 
-double addrvalue = *address; // note that neither * or & appears on the left, because that is the type
+double addrvalue = *address; // note that neither * or & appears on the left, because the value's type is double
 ```
 
 The dereference operator can be read as "the value pointed to by", just like the address-of operator can be read as "the address of".
 
 # Exercises
-
 ## Operator Precedence
 
 Order the following operations by precedence. Do this by playing around in a C++ program! Try different operation test cases by assigning different values to your variables and see what the result is by printing.
@@ -94,5 +93,5 @@ int a = 2;
 int b = 5;
 int * pa = &a;
 int * pb = &b;
-int finalval = *pa++**++pb++ // this is terrible. don't ever do this. but you can.
+auto finalval = *pa++**++pb++ // this is terrible. don't ever do this. but you can.
 ```
