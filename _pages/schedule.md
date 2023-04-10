@@ -20,13 +20,13 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 4/5 | _NO CLASS: Instructor Absence_ |
 | F 4/7 | _NO CLASS: Instructor Absence_ |
 | **Week 3** | **Lists and Pointers** | | |
-| M 4/10 | Pointers | Persuall && HWK 1 | HWK 2 |
+| M 4/10 | Pointers | Persuall && HWK 1 | [HWK 2][hwk2] |
 | W 4/12 | Singly-Linked Lists | Persuall | |
-| F 4/14 | Doubly-Linked Lists | Persuall | |
-| **Week 4** | **Lists and Classes** |  |  |
+| F 4/14 | Doubly-Linked Lists (+ Work Day) | Persuall | |
+| **Week 4** | **Templates and Overrides** |  |  |
 | M 4/17 | Group Exam | HWK 2 | Group Exam Revisions |
-| W 4/19 | Templates: List and Node Classes | Persuall | |
-| F 4/21 | Overrides: List and Node Casses | Persuall | |
+| W 4/19 | Templates and Overrides: Arrays | Persuall | |
+| F 4/21 | Templates and Overrides: Lists & Nodes | Persuall | |
 | **Week 5** | **Search and Sort Round 1** | | |
 | M 4/24 | Individual Exam | Group Exam Revisions | |
 | W 4/26 | Searching & Sorting | | |
@@ -56,7 +56,9 @@ This is a rough schedule of topics for each day, and the release and due dates f
 
 [hwk0]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk0
 [hwk1]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk1
+[hwk2]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk2
 
 [w1d2]: https://alackles.github.io/CMSC-270-ST-23/notes/01/math/
 [w1d3]: https://alackles.github.io/CMSC-270-ST-23/notes/01/cpp/
 [w2d1]: https://alackles.github.io/CMSC-270-ST-23/notes/02/arrays/
+[w3d1]: https://alackles.github.io/CMSC-270-ST-23/notes/03/pointers/
