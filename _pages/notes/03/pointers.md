@@ -93,7 +93,7 @@ int a = 2;
 int b = 5;
 int * pa = &a;
 int * pb = &b;
-auto finalval = *pa++**++pb++ // this is terrible. don't ever do this. but you can.
+auto finalval = *pa++*++*pb++ // this is terrible. don't ever do this. but you can.
 ```
 
 **Hint:** Break this down so you are just doing one operation at a time. For example, what does `finalval = ++p` set `finalval` to? Print it to the console to check. What about `finalval = *++p`? 
