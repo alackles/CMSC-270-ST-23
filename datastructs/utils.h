@@ -1,3 +1,5 @@
+#pragma once
+
 template<class T> inline
 T min(T a, T b) {
     if (a < b) {
