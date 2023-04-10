@@ -17,7 +17,6 @@ void swap_by_ref(int &x, int &y) {
 int main() {
 
     int a = 40, b = 20;
-    int j = 88, k = 77;
 
     std::cout << "Before swap (ptr)\n";
     std::cout << "a = " << a << " b = " << b << "\n";
@@ -30,7 +29,7 @@ int main() {
     std::cout << "Before swap (ref)\n";
     std::cout << "a = " << a << " b = " << b << "\n";
 
-    swap_by_ref(a, b); // why do we use address-of here?
+    swap_by_ref(a, b); // why do these get passed in without a dereference?
 
     std::cout << "After swap (ref)\n";
     std::cout << "a = " << a << " b = " << b << "\n";
