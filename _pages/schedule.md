@@ -24,8 +24,8 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 4/12 | Singly-Linked Lists | Persuall | |
 | F 4/14 | Doubly-Linked Lists (+ Work Day) | Persuall | |
 | **Week 4** | **Templates and Overrides** |  |  |
-| M 4/17 | Group Exam | HWK 2 | Group Exam Revisions |
-| W 4/19 | Templates and Overrides: Arrays | Persuall | |
+| M 4/17 | Group Exam | | Group Exam Revisions |
+| W 4/19 | Templates and Overrides: Arrays | Persuall && HWK2 | |
 | F 4/21 | Templates and Overrides: Lists & Nodes | | |
 | **Week 5** | **Search and Sort Round 1** | | |
 | M 4/24 | Individual Exam | Group Exam Revisions | |

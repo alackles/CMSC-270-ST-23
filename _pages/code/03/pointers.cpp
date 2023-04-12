@@ -28,6 +28,5 @@ int main() {
     int *pb = &b;
     //auto finalval = (*(pa++))*(++(*(pb++)));
     //std::cout << finalval << std::endl;
-    std::cout << *pa++*++*pb++;
 
 }
