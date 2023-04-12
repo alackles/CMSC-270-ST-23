@@ -8,6 +8,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 
 "Perusall" means there is reading due that day on Perusall. All reading is due **before** class time on that day.
 
+[Data Structures Database](https://alackles.github.io/CMSC-270-ST-23/notes/database/)
 
 | Date	| Topics	| Due (Before Class) |	Assigned (After Class) |
 | ------- | --------------- | ------------- | -------------- |
