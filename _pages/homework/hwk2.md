@@ -18,7 +18,7 @@ Feel free to reference and use as much of the [data structure implementations](h
 
 **Turn in your `.h` files only** for this assignment. Please don't zip them up; it is much easier to grade and view your files if they are submitted as single `.h` files. 
 
-Your homework is due **Monday, April 17, before class (1:50 PM)** on Canvas. If you get stuck, it is better to turn in your incomplete homework for feedback and guidance than to try to work on it a bit longer to make it "perfect". Perfect is the enemy of done!
+Your homework is due **Wednesday, April 19, before class (1:50 PM)** on Canvas. If you get stuck, it is better to turn in your incomplete homework for feedback and guidance than to try to work on it a bit longer to make it "perfect". Perfect is the enemy of done!
 
 # Questions
 
