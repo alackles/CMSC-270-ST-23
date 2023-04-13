@@ -55,4 +55,33 @@ SLList<T>::~SLList() {
 
 template<class T>
 void SLList<T>::add(int i, T x) {
+    Node *u = new Node(x);
+    Node *current = _head;
+    int position = 0;
+
+    // special setup with empty list
+    if (_n == 0) {
+        _head = u;
+        _tail = u;
+        n++;
+        return;
+    }
+
+    // non-empty list
+    if (i == 0) {
+        u->_next = _head;
+        _head = u;
+    } else {
+        while (current->_next != nullptr) {
+            if (position == i) {
+                u->_next = current->_next;    // points to the old next thing
+                current->_next = u;
+                break;
+            } else {
+                current = current->next;
+                position++;
+            }
+        } 
+    }
+    n++;
 } 

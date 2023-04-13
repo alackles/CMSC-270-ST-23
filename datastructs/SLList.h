@@ -66,12 +66,12 @@ void SLList<T>::add(int i, T x) {
 	if (_n == 0) {           // if there is no list, just create the head & tail
 		_head = u;
 	    _tail = u;  
-        n++;
+        _n++;
         return;
     }
     // non-empty list 
-    if (position == 0) {    // special case for head pointer
-        u->next = _head;    // points to the old head
+    if (i == 0) {    // special case for head pointer
+        u->_next = _head;    // points to the old head
         _head = u;          // becomes the new head
     } else {     
         while (current->_next != nullptr) {     // keep going as long as we haven't fallen off the list
@@ -100,7 +100,7 @@ T SLList<T>::remove(int i) {
     Node* current = _head;        // start at the head before we do anything
     int position = 0;             // current position
     
-    if (position == 0) {            // special case for removing head pointer 
+    if (i == 0) {            // special case for removing head pointer 
         _head = _head->_next;     // new head is whatever was next
         T x = current->_x;        // save the value that was there before we destroy it
         delete current;           // get rid of the old head
@@ -126,17 +126,17 @@ void SLList<T>::add(T x) {
 	if (_n == 0) {           // if there is no list, just create the head
 		_head = u;
 	} else {
-		_tail->next = u;    // if there is a list, add to the tail 
+		_tail->_next = u;    // if there is a list, add to the tail 
 	}
 	_tail = u;  // whether or not there is an existing list, the new tail is the thing we just added
-	n++;
+	_n++;
 }
 
 template <class T>
 T SLList<T>::remove() {
     
     // special case where the list is empty
-	if (n == 0)	{
+	if (_n == 0)	{
         return nullptr;
     } 
 
@@ -145,8 +145,8 @@ T SLList<T>::remove() {
 	T x = head->_x;          // get the value that the head currently points to 
 	_head = _head->_next;    // set the new head to the old thing
 
-    n--;                     // we got rid of something, so we have to decrease n
-	if (n == 0) {            // last cleanup ; if we got rid of everything it's time to get rid of the tail pointer too 
+    _n--;                     // we got rid of something, so we have to decrease n
+	if (_n == 0) {            // last cleanup ; if we got rid of everything it's time to get rid of the tail pointer too 
         _tail = nullptr;
     } 
 
