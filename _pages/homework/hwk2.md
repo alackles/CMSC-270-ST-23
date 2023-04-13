@@ -39,8 +39,8 @@ Implement a linked-list-based stack in C++. Your implementation should have the 
 
 - `add(i, x)`
 - `remove(i)`
-- `push(x)`, implemented as a special case of `add(i, x)`
-- `pop()`, implemented as a special case  of `remove(i)`
+- `push(x)`
+- `pop()`
 - `get(i)`
 - `set(i, x)`
 
@@ -55,8 +55,8 @@ Implement a linked-list-based queue in C++. Your implementation should have the 
 
 - `add(i, x)`
 - `remove(i)`
-- `enqueue(x)`, implemented as a specific case  of `add(i, x)`
-- `dequeue()`, implemented as a specific case of `remove(i)`
+- `enqueue(x)`
+- `dequeue()`
 - `get(i)`
 - `set(i, x)`
 
