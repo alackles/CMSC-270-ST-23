@@ -16,4 +16,4 @@ This image might help you in your understanding of doubly-linked lists:
 
 In this class we'll use a 'dummy node' instead of using 'null' to mark list ends. 
 
-Your task for this class is to **implement a doubly-linked list** in C++. To help you along with this task, the function declarations and member variables for a DLL have been implemented [here](); you should implement the definitions based on the pseudocode in your book. 
+Your task for this class is to **implement a doubly-linked list** in C++. To help you along with this task, the function declarations and member variables for a DLL have been implemented [here](https://github.com/alackles/CMSC-270-ST-23/blob/main/datastructs/DLList.h); you should implement the definitions based on the pseudocode in your book. 
