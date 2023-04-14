@@ -15,15 +15,15 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | **Week 1** | **Math and C++** | | |
 | M 3/27 | Intro, Expectations, (un)Grades | | [HWK 0][hwk0] |
 | W 3/29 | [Mathematical Background][w1d2] | | |
-| F 3/31 | [C++][w1d3] | Perusall && HWK 0 | |
+| F 3/31 | [C++][w1d3] | Perusall (1.1-1.7) && HWK 0 | |
 | **Week 2** | **Arrays** | | |
-| M 4/3 | [Array Stacks, Queues, Deques][w2d1] | Perusall | [HWK 1][hwk1] | 
+| M 4/3 | [Array Stacks, Queues, Deques][w2d1] | Perusall (2.1-2.4) | [HWK 1][hwk1] | 
 | W 4/5 | _NO CLASS: Instructor Absence_ |
 | F 4/7 | _NO CLASS: Instructor Absence_ |
 | **Week 3** | **Lists and Pointers** | | |
 | M 4/10 | [Pointers][w3d1] | Persuall && HWK 1 | [HWK 2][hwk2] |
-| W 4/12 | [Singly-Linked Lists][w3d2] | Persuall | |
-| F 4/14 | [Doubly-Linked Lists][w3d3] (+ Work Day) | Persuall | |
+| W 4/12 | [Singly-Linked Lists][w3d2] | Persuall (3.1) | |
+| F 4/14 | [Doubly-Linked Lists][w3d3] (+ Work Day) | Persuall (3.2) | |
 | **Week 4** | **Templates and Overrides** |  |  |
 | M 4/17 | Group Exam | | Group Exam Revisions |
 | W 4/19 | Templates and Overrides: Arrays | Persuall && HWK2 | |
