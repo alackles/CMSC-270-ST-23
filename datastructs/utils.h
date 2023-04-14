@@ -1,4 +1,5 @@
-#pragma once
+#ifndef UTILS_h_
+#define UTILS_H_
 
 template<class T> inline
 T min(T a, T b) {
@@ -17,3 +18,5 @@ T max(T a, T b) {
         return b;
     }
 }
+
+#endif /* UTILS_H_ */

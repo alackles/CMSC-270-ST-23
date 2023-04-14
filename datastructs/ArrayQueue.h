@@ -1,22 +1,23 @@
-#ifndef ARRAYSTACK_H_
-#define ARRAYSTACK_H_
+#ifndef ARRAYQUEUE_H_
+#define ARRAYQUEUE_H_
 
 #include "utils.h"
 
 template<class T>               // Allows this data structure to use any given type as long as it fits the operations
-class ArrayStack {
+class ArrayQueue {
     protected:                    // Can only be accessed by 'friend' classes; will see more about this soon 
         // underscores are convention to show that these are member variables
         int _n;                  // number of elements
+        int _j;                  // starting position
         T *_a;                   // backing array
         int _size;               // total size of array, NOT number of elements
         void resize();           // protected resize op
     public:
         // Constructor
-        ArrayStack(int n);
+        ArrayQueue(int n);
 
         // Destructor
-        ~ArrayStack();
+        ~ArrayQueue();
 
         // Get & Set operations
         T get(int i);
@@ -28,11 +29,11 @@ class ArrayStack {
         // Remove at specified place 
         T remove(int i);
         
-        // push and pop operations for stack-like behavior 
-        void push(T x);
-        T pop();
+        // enqueue/dequeue operations for queue-like behavior 
+        void enqueue(T x);
+        T dequeue();
 
-        // Empty the stack 
+        // Empty the queue
         void clear();
 
         // --- Below this point are some helpful functions ---
@@ -45,37 +46,39 @@ class ArrayStack {
 //      for the constructor, we initialize a new array as the "backing array"
 //      these constructors/destructors can be identical for any array-based implementation
 template<class T>
-ArrayStack<T>::ArrayStack(int size) {
+ArrayQueue<T>::ArrayQueue(int size) {
     _a = new T[size];
     _size = size; 
     _n = 0;
+    _j = 0;
 }
 
 // default destructor just trashes everything
 template<class T>
-ArrayStack<T>::~ArrayStack() {}
+ArrayQueue<T>::~ArrayQueue() {}
 
 // resize operation creates a new array twice the size of the original (or length 1 if the original array is empty)
 // book: 2.1.2
 template<class T>
-void ArrayStack<T>::resize() {
+void ArrayQueue<T>::resize() {
     T * b = new T[max(1, 2*_n)];
     for (int i = 0; i < _n; i++) {
         b[i] = _a[i];
     }     
     _a = b;
     _size = max(1, 2*_n);
+    _j = 0;
 }
 
 // get & set operations
 // book: 2.1.1
 template<class T>
-T ArrayStack<T>::get(int i) {
+T ArrayQueue<T>::get(int i) {
     return _a[i];
 }
 
 template<class T>
-T ArrayStack<T>::set(int i, T x) {
+T ArrayQueue<T>::set(int i, T x) {
     T y = _a[i];
     _a[i] = x;
     return y;
@@ -84,58 +87,76 @@ T ArrayStack<T>::set(int i, T x) {
 // add operation
 // book: 2.1.1
 template<class T>
-void ArrayStack<T>::add(int i, T x) {
-    // resize if array is too small to fit 
+void ArrayQueue<T>::add(int i, T x) {
     if (_n + 1 > _size) {
         resize();
     }
-    // shift all elements of the array that were to the right of index i one space to the right to make room for the new element
-    for (int j = _n; j > i; j--) {
-        _a[j] = _a[j-1];
-    }
-    // insert the new element 
-    _a[i] = x;
-    // increase the array element count
-    _n++;
+    if (i < _n/2) {
+        // handle the start of the array
+        if (_j == 0) {
+            _j = _size - 1 
+        } else {
+            _j = (_j - 1) % _size
+        }  
+        // shift elements left one position
+		for (int k = 0; k <= i-1; k++)
+			a[(_j + k) % _size] = a[(j + k + 1) % _size];
+	} else { 
+        // shift elements right one position 
+		for (int k = n; k > i; k--)
+			a[(_j + k) % _size] = a[(j + k - 1) % _size];
+	}
+	a[( _j + i ) % _size] = x;      // set element to the empty spot
+	n++;                            //increment no of elements
 }
 
-// remove operation
-// book: 2.1.1 
+// remove operation: notice how close to the add op it is
 template<class T>
-T ArrayStack<T>::remove(int i) {
-    // get the original element at the index being removed
-    T x = _a[i];
-    // shift all elements of the array that are to the right of index i one space to the left to overwrite the original element
-    for (int j = i; j < _n - 1; j++) {
-        _a[j] = _a[j+1];
+T ArrayQueue<T>::remove(int i) {
+    T x = a[(_j + i) % _size];
+    if (i < _n/2) { // shift a[0],..,[i-1] right one position
+    	for (int k = i; k > 0; k--)
+			a[(_j+k)%_size] = a[(_j+k-1)%_size];
+		_j = (_j + 1) % _size;
+    } else { // shift a[i+1],..,a[n-1] left one position
+		for (int k = i; k < _n-1; k++)
+			a[(_j+k)%_size] = a[(_j+k+1)%_size];
     }
-    // decrease the array element count
     _n--;
-    // resize if array is too large for the data 
-    if (_size >= 3 * _n) {
+    if (3*n < _size) {
         resize();
-    }
-    // original element in case we want it
+    } 
     return x;
 }
 
-// push and pop wrappers for stack-like functionality
-// notice how these do not rewrite the add and remove functions, but merely call these general functions for a specific case
-// See pg 37 for additional explanation
+// enqueue and dequeue
+// these ARE full rewrites of add/remove 
+// they make use of constant-time operations instead of O(n)
+// (ignoring the resize)
+// you COULD implement as add(_n, x) but that would have a lot of calls to unnecessary checks
 template<class T>
-void ArrayStack<T>::push(T x) {
-    add(_n, x);
+void ArrayQueue<T>::enqueue(T x) {
+	 if (_n + 1 > _size) {
+        resize();
+     }
+	 a[(_j+_n) % _size] = x;
+	 _n++;
 }
 
 template<class T>
-T ArrayStack<T>::pop() {
-    return remove(_n - 1);
+T ArrayQueue<T>::dequeue() {
+	T x = a[_j];
+	_j = (_j + 1) % _size //don't need to worry about j = 0
+	_n--;
+	if (_size >= 3*n) {
+        resize();
+    }
+	return x;
 }
 
-
-// Clear out the stack 
+// Clear out the queue
 template<class T>
-void ArrayStack<T>::clear() {
+void ArrayQueue<T>::clear() {
     _n = 0;                    // no more elements 
     T *b = new T[1];           // create new, single-element, empty array
     _a = b;                    // overwrite existing array
@@ -144,17 +165,20 @@ void ArrayStack<T>::clear() {
 
 // --- Little helper functions --- 
 template<class T>
-int ArrayStack<T>::getSize() {
+int ArrayQueue<T>::getSize() {
     return _size;
 }
 
 template<class T>
-void ArrayStack<T>::display() {
+void ArrayQueue<T>::display() {
     std::cout << "[";
     for (int i = 0; i < _size; i++) {
+        if (i == _j) {  // display the start of the circular queue
+            std::cout << "*"; 
+        }
         std::cout << " " << _a[i];
     }
     std::cout << " ]" << std::endl;
 }
 
-#endif /* ARRAYSTACK_H */
+#endif /* ARRAYQUEUE_H */

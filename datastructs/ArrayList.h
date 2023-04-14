@@ -1,37 +1,34 @@
-#ifndef ARRAYSTACK_H_
-#define ARRAYSTACK_H_
+#ifndef ARRAYLIST_H_
+#define ARRAYLIST_H_
 
 #include "utils.h"
 
 template<class T>               // Allows this data structure to use any given type as long as it fits the operations
-class ArrayStack {
+class ArrayList {
     protected:                    // Can only be accessed by 'friend' classes; will see more about this soon 
-        // underscores are convention to show that these are member variables
+                                // underscores are convention to show that these are member variables
         int _n;                  // number of elements
         T *_a;                   // backing array
         int _size;               // total size of array, NOT number of elements
         void resize();           // protected resize op
+    
     public:
         // Constructor
-        ArrayStack(int n);
+        ArrayList(int n);
 
         // Destructor
-        ~ArrayStack();
+        ~ArrayList();
 
         // Get & Set operations
         T get(int i);
         T set(int i, T x);
 
-        // Add at specified place
+        // Add at specified place, add to end
         void add(int i, T x);
 
         // Remove at specified place 
         T remove(int i);
         
-        // push and pop operations for stack-like behavior 
-        void push(T x);
-        T pop();
-
         // Empty the stack 
         void clear();
 
@@ -45,7 +42,7 @@ class ArrayStack {
 //      for the constructor, we initialize a new array as the "backing array"
 //      these constructors/destructors can be identical for any array-based implementation
 template<class T>
-ArrayStack<T>::ArrayStack(int size) {
+ArrayList<T>::ArrayList(int size) {
     _a = new T[size];
     _size = size; 
     _n = 0;
@@ -53,12 +50,12 @@ ArrayStack<T>::ArrayStack(int size) {
 
 // default destructor just trashes everything
 template<class T>
-ArrayStack<T>::~ArrayStack() {}
+ArrayList<T>::~ArrayList() {}
 
 // resize operation creates a new array twice the size of the original (or length 1 if the original array is empty)
 // book: 2.1.2
 template<class T>
-void ArrayStack<T>::resize() {
+void ArrayList<T>::resize() {
     T * b = new T[max(1, 2*_n)];
     for (int i = 0; i < _n; i++) {
         b[i] = _a[i];
@@ -70,12 +67,12 @@ void ArrayStack<T>::resize() {
 // get & set operations
 // book: 2.1.1
 template<class T>
-T ArrayStack<T>::get(int i) {
+T ArrayList<T>::get(int i) {
     return _a[i];
 }
 
 template<class T>
-T ArrayStack<T>::set(int i, T x) {
+T ArrayList<T>::set(int i, T x) {
     T y = _a[i];
     _a[i] = x;
     return y;
@@ -84,7 +81,7 @@ T ArrayStack<T>::set(int i, T x) {
 // add operation
 // book: 2.1.1
 template<class T>
-void ArrayStack<T>::add(int i, T x) {
+void ArrayList<T>::add(int i, T x) {
     // resize if array is too small to fit 
     if (_n + 1 > _size) {
         resize();
@@ -102,7 +99,7 @@ void ArrayStack<T>::add(int i, T x) {
 // remove operation
 // book: 2.1.1 
 template<class T>
-T ArrayStack<T>::remove(int i) {
+T ArrayList<T>::remove(int i) {
     // get the original element at the index being removed
     T x = _a[i];
     // shift all elements of the array that are to the right of index i one space to the left to overwrite the original element
@@ -119,23 +116,9 @@ T ArrayStack<T>::remove(int i) {
     return x;
 }
 
-// push and pop wrappers for stack-like functionality
-// notice how these do not rewrite the add and remove functions, but merely call these general functions for a specific case
-// See pg 37 for additional explanation
+// Clear out the list
 template<class T>
-void ArrayStack<T>::push(T x) {
-    add(_n, x);
-}
-
-template<class T>
-T ArrayStack<T>::pop() {
-    return remove(_n - 1);
-}
-
-
-// Clear out the stack 
-template<class T>
-void ArrayStack<T>::clear() {
+void ArrayList<T>::clear() {
     _n = 0;                    // no more elements 
     T *b = new T[1];           // create new, single-element, empty array
     _a = b;                    // overwrite existing array
@@ -144,7 +127,7 @@ void ArrayStack<T>::clear() {
 
 // --- Little helper functions --- 
 template<class T>
-int ArrayStack<T>::getSize() {
+int ArrayList<T>::getSize() {
     return _size;
 }
 
@@ -157,4 +140,5 @@ void ArrayStack<T>::display() {
     std::cout << " ]" << std::endl;
 }
 
-#endif /* ARRAYSTACK_H */
+
+#endif /* ARRAYLIST_H_ */
