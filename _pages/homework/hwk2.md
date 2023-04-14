@@ -20,6 +20,10 @@ Feel free to reference and use as much of the [data structure implementations](h
 
 Your homework is due **Wednesday, April 19, before class (1:50 PM)** on Canvas. If you get stuck, it is better to turn in your incomplete homework for feedback and guidance than to try to work on it a bit longer to make it "perfect". Perfect is the enemy of done!
 
+## Helpful Hints
+
+If you need to access a member variable from a pointer, remember you will have to use the `->` notation instead of `.`. That is, `_head->_next`, rather than `_head.next`. However, if you have a real type and like dummy, even if you are trying to _access_ a pointer, use dot notation. (e.g., `dummy._next` rather than `dummy->_next`.)
+
 # Questions
 
 ## Q1: DLList -  `dllist.h`
