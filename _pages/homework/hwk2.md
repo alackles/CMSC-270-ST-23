@@ -27,10 +27,10 @@ Your homework is due **Wednesday, April 19, before class (1:50 PM)** on Canvas. 
 Implement a doubly-linked list in C++. Your implementation should be based on section 3.2 of the textbook. In particular, your DLL should at least implement the following interface methods for a linked list of **generic type**:
 
 - `initialize()`
-- `get(i)`, implemented as a special case of `get_node(i)`
+- `get(i)`
 - `set(i, x)`
-- `add(i, x)`, implemented as a special case of `add_before(i, x)`
-- `remove(i)`, implemented as a special case of `remove(w)` (note the difference here: _i_ is an index while _w_ is a value)
+- `add(i, x)`, 
+- `remove(i)`
 
 ## Q2: ListStack - `ListStack.h`
 

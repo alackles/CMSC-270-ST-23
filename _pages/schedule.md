@@ -22,8 +22,8 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 4/7 | _NO CLASS: Instructor Absence_ |
 | **Week 3** | **Lists and Pointers** | | |
 | M 4/10 | [Pointers][w3d1] | Persuall && HWK 1 | [HWK 2][hwk2] |
-| W 4/12 | Singly-Linked Lists | Persuall | |
-| F 4/14 | Doubly-Linked Lists (+ Work Day) | Persuall | |
+| W 4/12 | [Singly-Linked Lists][w3d2] | Persuall | |
+| F 4/14 | [Doubly-Linked Lists][w3d3] (+ Work Day) | Persuall | |
 | **Week 4** | **Templates and Overrides** |  |  |
 | M 4/17 | Group Exam | | Group Exam Revisions |
 | W 4/19 | Templates and Overrides: Arrays | Persuall && HWK2 | |
@@ -63,3 +63,5 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [w1d3]: https://alackles.github.io/CMSC-270-ST-23/notes/01/cpp/
 [w2d1]: https://alackles.github.io/CMSC-270-ST-23/notes/02/arrays/
 [w3d1]: https://alackles.github.io/CMSC-270-ST-23/notes/03/pointers/
+[w3d2]: https://alackles.github.io/CMSC-270-ST-23/notes/03/sll/
+[w3d3]: https://alackles.github.io/CMSC-270-ST-23/notes/03/dll/

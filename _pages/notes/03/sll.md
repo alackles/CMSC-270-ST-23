@@ -13,3 +13,5 @@ The main challenge with singly-linked lists is working with the pointers, and in
 This image might help you in your understanding of singly-linked lists:
 
 ![A pictoral representation of an SLL](https://media.geeksforgeeks.org/wp-content/uploads/singly-linkedlist.png).
+
+Rather than write up a detailed explanation of an SLL, I have extensively commented a C++ implementation [here](https://github.com/alackles/CMSC-270-ST-23/tree/main/datastructs).
