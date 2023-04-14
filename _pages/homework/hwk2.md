@@ -39,10 +39,10 @@ Implement a linked-list-based stack in C++. Your implementation should have the 
 
 - `add(i, x)`
 - `remove(i)`
-- `push(x)`
-- `pop()`
 - `get(i)`
 - `set(i, x)`
+- `push(x)`
+- `pop()`
 
 You may use either the `sllist.h` or `dllist.h` implementation of linked lists to implement your ListStack, but you should add a **comment** in your code justifying your choice.  
 
@@ -55,9 +55,9 @@ Implement a linked-list-based queue in C++. Your implementation should have the 
 
 - `add(i, x)`
 - `remove(i)`
-- `enqueue(x)`
-- `dequeue()`
 - `get(i)`
 - `set(i, x)`
+- `enqueue(x)`
+- `dequeue()`
 
 You may use either the `sllist.h` or `dllist.h` implementation of linked lists to implement your ListStack, but you should add a **comment** in your code justifying your choice.  
