@@ -2,5 +2,6 @@
 #include "SLList.h"
 
 int main() {
-    SLList<int> myList();
+    SLList<int> myList;
+    myList.add(7);
 }

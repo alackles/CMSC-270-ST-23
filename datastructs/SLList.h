@@ -6,8 +6,12 @@ class SLList {
     struct Node {
         T _x;
         Node *_next;
+        Node(int x) {
+            _x = x;
+            _next = nullptr;
+        }
     };
-    
+
 	Node *_head;
 	Node *_tail;
 	int _n;
@@ -73,7 +77,7 @@ void SLList<T>::add(int i, T x) {
                 current->_next = u;             // become the new next thing
                 break;
             } else {
-                current = current->_next         // move along to the next item
+                current = current->_next;         // move along to the next item
                 position++;                     // increase position
             }
         }
@@ -104,9 +108,9 @@ T SLList<T>::remove(int i) {
                 Node* nextnode = current->_next->_next;         // current->next is the node we need to delete, so grab the thing right after that
                 delete current->_next;                          // delete the node at current->next
                 current->next = nextnode;                       // set the new next thing 
-                break
+                break;
             } else {
-                current = current->_next         // move along to the next item
+                current = current->_next;         // move along to the next item
                 position++;                     // increase position
             }
         }
@@ -134,8 +138,8 @@ T SLList<T>::remove() {
     } 
 
     //non-empty list
-    Node *u = _head          // grab the old head before we do anything
-	T x = head->_x;          // get the value that the head currently points to 
+    Node *u = _head;          // grab the old head before we do anything
+	T x = _head->_x;          // get the value that the head currently points to 
 	_head = _head->_next;    // set the new head to the old thing
 
     _n--;                     // we got rid of something, so we have to decrease n
