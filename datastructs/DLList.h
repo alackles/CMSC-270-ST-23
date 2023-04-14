@@ -13,7 +13,7 @@ struct Node {
 
     Node(T x) {
         _x = x;
-        _next = nullptr
+        _next = _prev = nullptr;
     }
 };
 
