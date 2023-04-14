@@ -26,7 +26,7 @@ public:
 
     // get & set operations (INEFFICIENT - if we are doing frequent 'get' or 'set', use arrays)
     T get(int i);
-    T set(int i, T x);
+    void set(int i, T x);
 
     // add 
     void add(int i, T x);
@@ -51,6 +51,27 @@ SLList<T>::~SLList() {
 		u = u->_next;
 		delete w;
 	}
+}
+
+template<class T>
+T SLList<T>::get(int i) {
+    Node *u = new Node(NULL);
+    u = _head;
+    for (int k = 0; k < i; k++) {
+        u = _head->_next;
+    }
+    int val = u->_x;
+    return val;
+}
+
+template<class T>
+void SLList<T>::set(int i, T x) {
+    Node *u = new Node(NULL);
+    u = _head;
+    for (int k = 0; k < i; k++) {
+        u = _head->_next;
+    }
+    u->_x = x;
 }
 
 template<class T>
