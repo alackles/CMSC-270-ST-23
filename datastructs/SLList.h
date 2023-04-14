@@ -6,7 +6,7 @@ class SLList {
     struct Node {
         T _x;
         Node *_next;
-        Node(int x) {
+        Node(T x) {
             _x = x;
             _next = nullptr;
         }

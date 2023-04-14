@@ -16,7 +16,7 @@ class DLList {
             _x = x;
             _next = _prev = nullptr;
         }
-    }
+    };
 
 	Node dummy;
 	int _n;
@@ -57,4 +57,13 @@ public:
     T remove(int i);
 };
 
+template <class T>
+typename DLList<T>::Node* DLList<T>::addBefore(Node *w, T x) {
+    // implementation
+}
+
+template <class T>
+typename DLList<T>::Node* DLList<T>::getNode(int i) {
+    // implementation
+}
 #endif /*DLLIST_H_*/
