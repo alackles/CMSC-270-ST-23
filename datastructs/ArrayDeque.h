@@ -125,7 +125,7 @@ T ArrayDeque<T>::remove(int i) {
 			a[(_j+k)%_size] = a[(_j+k+1)%_size];
     }
     _n--;
-    if (3*n < _size) {
+    if (3*_n < _size) {
         resize();
     } 
     return x;
