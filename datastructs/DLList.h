@@ -11,8 +11,13 @@ class DLList {
         T _x;
         Node *_next;
         Node *_prev;
+
+        Node(T x) {
+            _x = x;
+            _next = _prev = nullptr;
+        }
     }
-    
+
 	Node dummy;
 	int _n;
 
