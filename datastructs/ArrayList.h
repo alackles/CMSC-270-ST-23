@@ -132,7 +132,7 @@ int ArrayList<T>::getSize() {
 }
 
 template<class T>
-void ArrayStack<T>::display() {
+void ArrayList<T>::display() {
     std::cout << "[";
     for (int i = 0; i < _size; i++) {
         std::cout << " " << _a[i];
