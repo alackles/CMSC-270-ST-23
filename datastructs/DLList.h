@@ -6,19 +6,13 @@
 
 // node 'struct' - a tiny collection
 template<class T>
-struct Node {
-    T _x;
-    Node *_next;
-    Node *_prev;
-
-    Node(T x) {
-        _x = x;
-        _next = _prev = nullptr;
-    }
-};
-
-template<class T>
 class DLList {
+    struct Node {
+        T _x;
+        Node *_next;
+        Node *_prev;
+    }
+    
 	Node dummy;
 	int _n;
 

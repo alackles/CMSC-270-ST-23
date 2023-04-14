@@ -1,20 +1,13 @@
 #ifndef SLLIST_H_
 #define SLLIST_H_
 
-// node 'struct' - a tiny collection
-template<class T>
-struct Node {
-    T _x;
-    Node *_next;
-
-    Node(T x) {
-        _x = x;
-        _next = nullptr
-    }
-};
-
 template<class T>
 class SLList {
+    struct Node {
+        T _x;
+        Node *_next;
+    };
+    
 	Node *_head;
 	Node *_tail;
 	int _n;
@@ -37,7 +30,7 @@ public:
 
     // remove
     T remove(int i);
-    T remove() // assumes removal from the head -- notice this is NOT just a wrapper for remove(int i), but a completely different implementation
+    T remove(); // assumes removal from the head -- notice this is NOT just a wrapper for remove(int i), but a completely different implementation
 };
 
 template<class T>
@@ -78,7 +71,7 @@ void SLList<T>::add(int i, T x) {
             if (position == i) {
                 u->_next = current->_next;      // point to the old next thing
                 current->_next = u;             // become the new next thing
-                break
+                break;
             } else {
                 current = current->_next         // move along to the next item
                 position++;                     // increase position
