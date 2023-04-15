@@ -7,4 +7,6 @@ int main() {
     std::cout << myList.get(0) << std::endl;
     myList.add(20);
     std::cout << myList.get(1) << std::endl;
+    myList.add(50);
+    std::cout << myList.get(1) << std::endl;
 }

@@ -58,7 +58,7 @@ T SLList<T>::get(int i) {
     Node *u = new Node(NULL);
     u = _head;
     for (int k = 0; k < i; k++) {
-        u = _head->_next;
+        u = u->_next;
     }
     int val = u->_x;
     return val;
@@ -69,7 +69,7 @@ void SLList<T>::set(int i, T x) {
     Node *u = new Node(NULL);
     u = _head;
     for (int k = 0; k < i; k++) {
-        u = _head->_next;
+        u = u->_next;
     }
     u->_x = x;
 }
