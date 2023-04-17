@@ -6,10 +6,6 @@ class SLList {
     struct Node {
         T _x;
         Node *_next;
-        Node(T x) {
-            _x = x;
-            _next = nullptr;
-        }
     };
 
 	Node *_head;

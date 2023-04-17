@@ -1,4 +1,4 @@
-#ifndef ARRAYLIST_H_
+#ifndef ARRAYLIST_H_            // "HEADER GUARDS"
 #define ARRAYLIST_H_
 
 #include "utils.h"

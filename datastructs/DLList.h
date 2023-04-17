@@ -1,5 +1,5 @@
-#ifndef DLLIST_H_
-#define DLLIST_H_
+#ifndef DLLIST_H_                   // "header guards"  
+#define DLLIST_H_                   // prevents double inclusion
 
 template<class T>
 class DLList {

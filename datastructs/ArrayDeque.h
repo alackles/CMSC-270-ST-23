@@ -1,5 +1,5 @@
-#ifndef ArrayDeque_H_
-#define ArrayDeque_H_
+#ifndef ARRAYDEQUE_H_
+#define ARRAYDEQUE_H_
 
 #include "utils.h"
 

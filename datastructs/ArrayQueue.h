@@ -1,5 +1,5 @@
-#ifndef ARRAYQUEUE_H_
-#define ARRAYQUEUE_H_
+#ifndef ARRAYQUEUE_H_               // "header guards"
+#define ARRAYQUEUE_H_               // prevents double inclusion
 
 #include "utils.h"
 
