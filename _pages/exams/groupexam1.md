@@ -48,8 +48,6 @@ However, if the kitchen is very backed up, they could take a lot of orders at on
 
 They'd like to fix the code they currently use for this so that it's able to handle both of those scenarios: the 'intended' flow of orders, and the possibility for orders to be taken out of the middle of the list. 
 
-Like the real board at Kaplan, however, the integers are _sorted_; if order 23 is added while 22 and 24 are on the board, it will go in between them. 
-
 "Cool," you say, "but you don't seem to get a very high volume of orders, so using the 'right' data structure doesn't really matter here, does it?"
 
 "That's true," says the kitchen staff member, "but this is a Data Structures exam, so you have to figure it out anyway. Here's the code we have right now; good luck!"
