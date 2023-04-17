@@ -25,7 +25,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 4/12 | [Singly-Linked Lists][w3d2] | Persuall (3.1) | |
 | F 4/14 | [Doubly-Linked Lists][w3d3] (+ Work Day) | Persuall (3.2) | |
 | **Week 4** | **Templates and Overrides** |  |  |
-| M 4/17 | [Group Exam][ge1] | | Group Exam Revisions |
+| M 4/17 | [Group Exam][ge1] | | Group Exam Revisions [(solutions)][ge1soln] |
 | W 4/19 | Templates and Overrides: Arrays | Persuall | |
 | F 4/21 | Templates and Overrides: Lists & Nodes | HWK2 | |
 | **Week 5** | **Search and Sort Round 1** | | |
@@ -67,3 +67,4 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [w3d3]: https://alackles.github.io/CMSC-270-ST-23/notes/03/dll/
 
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
+[ge1soln]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1-solutions/
