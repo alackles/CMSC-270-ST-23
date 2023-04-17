@@ -21,6 +21,8 @@ A singly-linked list is not a good choice for this problem, because even though 
 
 ## Part 2
 
+[solution](https://github.com/alackles/CMSC-270-ST-23/tree/main/_pages/exams/groupexam1-solution)
+
 The code is included in this solution guide as `kaplan.cpp`. A few things to note here:
 
 - The addition of a `find(x)` function, which finds the location of a particular element. You could do this within the `kaplan.cpp` addOrder() function itself if you needed to, but it is probably better to add it in the `DLList.h` file. 
