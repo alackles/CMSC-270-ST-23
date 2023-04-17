@@ -1,6 +1,6 @@
 ---
 title: Group Exam 1
-permalink: /notes/groupexam1/
+permalink: /exams/groupexam1/
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
@@ -26,7 +26,7 @@ Your exam should be uploaded by one person to Canvas. In Canvas, your groups are
 Turn in your answer in two parts:
 
 - `written.md`: Your written answers as a `.md` file. You can make a `.md` file in VSCode by making a new file and naming it with the extension `.md`. You can work with it as normal text. 
-- `kaplan.cpp`: The edited code for the order board
+- `kaplan.cpp`: The edited code for the order board.
 
 # Exam Question
 
@@ -54,7 +54,9 @@ Like the real board at Kaplan, however, the integers are _sorted_; if order 23 i
 
 "That's true," says the kitchen staff member, "but this is a Data Structures exam, so you have to figure it out anyway. Here's the code we have right now; good luck!"
 
-[code]()
+[Here is the C++ code for the Kaplan Cafe ordering system in this problem.](https://github.com/alackles/CMSC-270-ST-23/blob/main/_pages/exams/kaplan.cpp) Save it to an empty folder, (probably called `groupexam1`), and then add in whatever data structures `.h` files you need or want.
+
+[Here is a link to some data structures implemented thus far.](https://github.com/alackles/CMSC-270-ST-23/tree/main/datastructs)
 
 ## Part 1
 
