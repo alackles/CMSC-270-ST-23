@@ -16,23 +16,28 @@ A singly-linked list is not a good choice for this problem, because even though 
 
 The code is included in this solution guide as `kaplan.cpp`. A few things to note here:
 
-- The addition of a `find(x)` function, which finds the location of a particular element
+- The addition of a `find(x)` function, which finds the location of a particular element. You could do this within the `kaplan.cpp` addOrder() function itself if you needed to, but it is probably better to add it in the `DLList.h` file. 
 - The difference between `_n`, the internal value for the doubly-linked list, and `n`, the internal value for the order board. You could link these two together with a `getN()` function for the board, or by making the order board a derived class from the doubly linked list (this would probably be the better option, and would be worth doing if you are looking to go above and beyond on your revisions)
 
 ## Part 3
 
 In this case, to handle sorting, we would really only need to handle adding in the proper place. Here's some pseudocode to change the add function to include adding at the proper location. 
 
-We can do this by checking if the _next_ element is larger than the one we are trying to add. If there is no "next" element, i.e., if it is the first element added, we just add it to the first position. 
+We can do this by checking if the _next_ element is larger than the one we are trying to add. If there is no "next" element, i.e., if it is the first element added, we just add it to the first position. If we are adding in order, it will always stay in order. 
+
+The only other special case to consider is if the new element we are adding is the largest element so far. We'll just add it to the end in that case, and to make sure we only do that if it's the largest element, we include returns in the other cases. 
 
 ```
 addOrder(x):
     if n == 0:
         boardDisplay.add(n, x)
+        return
     else:
         for i from 1 to length(boardDisplay) - 1:
             if boardDisplay[i] > x:
                 boardDisplay.add(i-1, x)
+                return
+    boardDisplay[n] = x
     n++
     display();
 ```
