@@ -83,7 +83,7 @@ typename DLList<T>::Node* DLList<T>::getNode(int i) {
         }
     } else {
         p = &dummy;                     // get the address of the dummy node
-i        for (int j = _n; j > i; j--) {
+        for (int j = _n; j > i; j--) {
             p = p->_prev;                // walk backwards from the tail
         }
     }
