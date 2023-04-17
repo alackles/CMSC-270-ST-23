@@ -47,9 +47,6 @@ public:
     // remove
     T remove(int i);
 
-    // "find": find index of x if it's in the list, return -1 if it's not
-    int find(T x);
-
     void display();
 };
 
@@ -124,19 +121,6 @@ T DLList<T>::remove(int i) {
 	T x = w->_x;
 	removeNode(w);
 	return x;
-}
-
-template<class T>
-int DLList<T>::find(T x) {
-    Node *u;
-    u = dummy._next;
-    for (int i = 0; i < _n; i++) {
-        if (x == u->_x) {
-            return i;
-        }
-        u = u->_next;
-    }
-    return -1;
 }
 
 template<class T>
