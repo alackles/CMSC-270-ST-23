@@ -96,33 +96,33 @@ void ArrayDeque<T>::add(int i, T x) {
     if (i < _n/2) {
         // handle the start of the array
         if (_j == 0) {
-            _j = _size - 1 
+            _j = _size - 1; 
         } else {
-            _j = (_j - 1) % _size
+            _j = (_j - 1) % _size;
         }  
         // shift elements left one position
 		for (int k = 0; k <= i-1; k++)
-			a[(_j + k) % _size] = a[(j + k + 1) % _size];
+			_a[(_j + k) % _size] = _a[(_j + k + 1) % _size];
 	} else { 
         // shift elements right one position 
-		for (int k = n; k > i; k--)
-			a[(_j + k) % _size] = a[(j + k - 1) % _size];
+		for (int k = _n; k > i; k--)
+			_a[(_j + k) % _size] = _a[(_j + k - 1) % _size];
 	}
-	a[( _j + i ) % _size] = x;      // set element to the empty spot
-	n++;                            //increment no of elements
+	_a[( _j + i ) % _size] = x;      // set element to the empty spot
+	_n++;                            //increment no of elements
 }
 
 // remove operation: notice how close to the add op it is
 template<class T>
 T ArrayDeque<T>::remove(int i) {
-    T x = a[(_j + i) % _size];
-    if (i < _n/2) { // shift a[0],..,[i-1] right one position
+    T x = _a[(_j + i) % _size];
+    if (i < _n/2) { // shift _a[0],..,[i-1] right one position
     	for (int k = i; k > 0; k--)
-			a[(_j+k)%_size] = a[(_j+k-1)%_size];
+			_a[(_j+k)%_size] = _a[(_j+k-1)%_size];
 		_j = (_j + 1) % _size;
-    } else { // shift a[i+1],..,a[n-1] left one position
+    } else { // shift _a[i+1],..,_a[n-1] left one position
 		for (int k = i; k < _n-1; k++)
-			a[(_j+k)%_size] = a[(_j+k+1)%_size];
+			_a[(_j+k)%_size] = _a[(_j+k+1)%_size];
     }
     _n--;
     if (3*_n < _size) {
