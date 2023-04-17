@@ -27,6 +27,7 @@ Turn in your answer in two parts:
 
 - `written.md`: Your written answers as a `.md` file. You can make a `.md` file in VSCode by making a new file and naming it with the extension `.md`. You can work with it as normal text. 
 - `kaplan.cpp`: The edited code for the order board.
+- The `.h` file for whichever data structure you use.
 
 # Exam Question
 
