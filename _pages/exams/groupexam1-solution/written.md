@@ -1,3 +1,10 @@
+---
+title: Group Exam 1 Solutions
+permalink: /exams/groupexam1-solutions/
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
+---
 ## Part 1
 
 The most appropriate data structure for this question is a **doubly-linked list**. 

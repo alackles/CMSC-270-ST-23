@@ -28,6 +28,7 @@ include:
   - _pages
   - homework
   - notes
+  - exams
 exclude:
   - Gemfile
   - LICENSE
