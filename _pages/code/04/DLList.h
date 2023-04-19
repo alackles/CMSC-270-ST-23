@@ -1,6 +1,8 @@
 #ifndef DLLIST_H_                   // "header guards"  
 #define DLLIST_H_                   // prevents double inclusion
 
+#include <iostream>
+#include "utils.h"
 template<class T>
 class DLList {
     struct Node {
@@ -132,4 +134,4 @@ void DLList<T>::display() {
 }
 
 
-#endif /*DLLIST_H_*/
+#endif /*DLLIST_H_*/ 

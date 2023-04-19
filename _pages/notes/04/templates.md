@@ -16,12 +16,12 @@ Templates allow you to declare a function of any generic type (that fits within 
 
 ```cpp
 template<class T> T sum(T a, T b) {
-    return a + b
+    return a + b;
 }
 
 int main() {
     std::cout << sum<int>(2, 4) << "\n";
-    std::cout << sum<double>(2.4, 4.1) << "\n" 
+    std::cout << sum<double>(2.4, 4.1) << "\n";
     //std::cout << sum<std::string>("hi", " everyone") << "\n"              // not valid
 }
 ```

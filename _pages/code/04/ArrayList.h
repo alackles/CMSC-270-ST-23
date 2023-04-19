@@ -1,6 +1,7 @@
-#ifndef ARRAYLIST_H_            // "HEADER GUARDS"
-#define ARRAYLIST_H_
+//#ifndef ARRAYLIST_H_            // "HEADER GUARDS"
+//#define ARRAYLIST_H_
 
+#include <iostream>
 #include "utils.h"
 
 template<class T>               // Allows this data structure to use any given type as long as it fits the operations
@@ -54,7 +55,7 @@ ArrayList<T>::~ArrayList() {}
 
 // resize operation creates a new array twice the size of the original (or length 1 if the original array is empty)
 // book: 2.1.2
-template<class T>
+template<class T> 
 void ArrayList<T>::resize() {
     T * b = new T[max(1, 2*_n)];
     for (int i = 0; i < _n; i++) {
@@ -141,4 +142,4 @@ void ArrayList<T>::display() {
 }
 
 
-#endif /* ARRAYLIST_H_ */
+//#endif /* ARRAYLIST_H_ */

@@ -1,4 +1,4 @@
-#ifndef UTILS_h_
+#ifndef UTILS_H_
 #define UTILS_H_
 
 template<class T> inline
