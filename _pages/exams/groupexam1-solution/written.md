@@ -44,11 +44,11 @@ addOrder(x):
     else:
         current <- dummy
         for i from 1 to length(boardDisplay) - 1: 
-            if current->next > x: 
+            if current.next > x: 
                 boardDisplay.add(i-1, x)
                 return
-            current <- current->next
-    dummy->prev = x
+            current <- current.next
+    dummy.prev = x
     n++
     display();
 ```
