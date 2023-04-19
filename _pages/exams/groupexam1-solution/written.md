@@ -42,10 +42,12 @@ addOrder(x):
         boardDisplay.add(n, x)
         return
     else:
-        for i from 1 to length(boardDisplay) - 1:
-            if boardDisplay[i] > x:
+        current <- dummy
+        for i from 1 to length(boardDisplay) - 1: 
+            if current->next > x: 
                 boardDisplay.add(i-1, x)
                 return
+            current <- current->next
     boardDisplay[n] = x
     n++
     display();
