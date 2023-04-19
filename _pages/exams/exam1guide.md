@@ -36,5 +36,10 @@ The following topics will _not_ be covered.
 
 ## How to Study
 
-Go back to the data structures and their implementatios. Try first working with the data structures in C++ code, then try drawing out the data structures that you have created in the code. Can you follow along with the `display()` method of each function at each step? Can you follow along with what is happening _between_ displays of the data structure? 
+Go back to the data structures and their implementatios. Try first working with the data structures in C++ code, then try drawing out the data structures that you have created in the code. 
 
+Can you follow along with the `display()` method of each function at each step, and draw what the data structure looks like? 
+
+Can you follow along with what is happening _between_ displays of the data structure, when elements are being moved around inside the container itself? 
+
+Return to your Homeworks 0, 1, and 2 to note any feedback you have received, and try revising those assignments based on the feedback. 
