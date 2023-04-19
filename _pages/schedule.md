@@ -29,7 +29,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 4/19 | [Templates and Overrides][w4d2] | Persuall | |
 | F 4/21 | GitHub | HWK2 | |
 | **Week 5** | **Search and Sort Round 1** | | |
-| M 4/24 | Individual Exam | Group Exam Revisions | |
+| M 4/24 | Individual Exam [(guide)][exam1guide] | Group Exam Revisions | |
 | W 4/26 | Searching & Sorting (STL) | Perusall | |
 | F 4/28 | Search and Sort Competition | | |
 | **Week 6** | **Binary Trees** | | |
@@ -69,3 +69,4 @@ This is a rough schedule of topics for each day, and the release and due dates f
 
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
 [ge1soln]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1-solutions/
+[exam1guide]: https://alackles.github.io/CMSC-270-ST-23/exams/exam1guide/
