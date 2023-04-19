@@ -26,11 +26,11 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 4/14 | [Doubly-Linked Lists][w3d3] (+ Work Day) | Persuall (3.2) | |
 | **Week 4** | **Templates and Overrides** |  |  |
 | M 4/17 | [Group Exam][ge1] | | Group Exam Revisions [(solutions)][ge1soln] |
-| W 4/19 | Templates and Overrides: Arrays | Persuall | |
-| F 4/21 | Templates and Overrides: Lists & Nodes | HWK2 | |
+| W 4/19 | Templates and Overrides | Persuall | |
+| F 4/21 | GitHub | HWK2 | |
 | **Week 5** | **Search and Sort Round 1** | | |
 | M 4/24 | Individual Exam | Group Exam Revisions | |
-| W 4/26 | Searching & Sorting | Perusall | |
+| W 4/26 | Searching & Sorting (STL) | Perusall | |
 | F 4/28 | Search and Sort Competition | | |
 | **Week 6** | **Binary Trees** | | |
 | M 5/1 | Binary Trees | Persuall |  HWK 3 | 
