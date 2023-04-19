@@ -48,7 +48,7 @@ addOrder(x):
                 boardDisplay.add(i-1, x)
                 return
             current <- current->next
-    boardDisplay[n] = x
+    dummy->prev = x
     n++
     display();
 ```
