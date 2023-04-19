@@ -1,6 +1,6 @@
 ---
 title: Template Types (etc.)
-permalink: /notes/04/templates
+permalink: /notes/04/templates/
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
