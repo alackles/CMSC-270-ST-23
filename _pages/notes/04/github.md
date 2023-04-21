@@ -1,6 +1,6 @@
 ---
 title: Intro to Git and GitHub
-permalink: /notes/01/git/
+permalink: /notes/04/git/
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
