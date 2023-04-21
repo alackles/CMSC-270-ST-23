@@ -34,13 +34,13 @@ This starts a new, empty git repository.
 
 As a class, we will follow along with the official [Git tutorial](https://git-scm.com/docs/gittutorial) for version control. 
 
-> [Git Tutorial](https://tutorial.djangogirls.org/en/intro_to_command_line/)
+> [Git Tutorial](https://git-scm.com/docs/gittutorial)
 
 ## Visual Exploration of Git
 
 If you are a visual learner, and you want to understand more about branching in git, you should check out [Learn Git Branching](https://learngitbranching.js.org/), a fantastic, gamified way to learn git branching.
 
-> [Learn Git Branching](https://tutorial.djangogirls.org/en/intro_to_command_line/)
+> [Learn Git Branching](https://learngitbranching.js.org/)
 
 # GitHub 
 
