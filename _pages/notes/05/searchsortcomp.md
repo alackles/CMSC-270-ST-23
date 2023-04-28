@@ -27,11 +27,15 @@ All of the contestants will be ultimately run on my computer to ensure fairness.
 
 Only groups which submit their work by the end of the course period are eligible to win. 
 
+## Prize
+
+We currently have no scheduled topic for Friday, May 19. The winning group can pick the topic/activity for that date. It can be any topic inside or outside computer science; the only thing you can't pick is "cancel class". 
+
 # Code
 
 ## Starter Files
 
-The starter file for this project can be found [here]().
+The starter file for this project can be found [here](https://github.com/alackles/CMSC-270-ST-23/blob/main/_pages/code/05/searchsort/main.cpp).
 
 The `main.cpp` file includes a random array. Note that this is not an ArrayList, but just a standard, C++ array. 
 
