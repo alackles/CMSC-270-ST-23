@@ -73,4 +73,4 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
 [ge1soln]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1-solutions/
 [exam1guide]: https://alackles.github.io/CMSC-270-ST-23/exams/exam1guide/
-[exam1soln]: https://alackles.github.io/CMSC-270-ST-23/exams/exam1soln.pdf
+[exam1soln]: https://alackles.github.io/CMSC-270-ST-23/_pages/exams/exam1soln.pdf
