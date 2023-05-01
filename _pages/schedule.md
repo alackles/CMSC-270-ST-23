@@ -33,7 +33,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 4/26 | [Searching & Sorting][w5d2] (STL) | Perusall | |
 | F 4/28 | [Search and Sort Competition][w5d3] | | |
 | **Week 6** | **Binary Trees** | | |
-| M 5/1 | Binary Trees | Persuall |  HWK 3 | 
+| M 5/1 | [Binary Trees][w6d1] | Persuall |  HWK 3 | 
 | W 5/3 | Binary Search Trees | Persuall | | |
 | F 5/5 | _NO CLASS: Reading Period_ | | |
 | **Week 7** | **AVL and Red-Black Trees** | | |
@@ -69,6 +69,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [w4d3]: https://alackles.github.io/CMSC-270-ST-23/notes/04/git/
 [w5d2]: https://alackles.github.io/CMSC-270-ST-23/notes/05/searchsort/
 [w5d3]: https://alackles.github.io/CMSC-270-ST-23/notes/05/searchsortcomp/
+[w6d1]: https://alackles.github.io/CMSC-270-ST-23/notes/06/bintree/
 
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
 [ge1soln]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1-solutions/
