@@ -34,7 +34,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 4/28 | [Search and Sort Competition][w5d3] | | |
 | **Week 6** | **Binary Trees** | | |
 | M 5/1 | [Binary Trees][w6d1] | Persuall |  [HWK 3][hwk3] | 
-| W 5/3 | Binary Search Trees | Persuall | | |
+| W 5/3 | [Binary Search Trees][w6d2] | Persuall | | |
 | F 5/5 | _NO CLASS: Reading Period_ | | |
 | **Week 7** | **AVL and Red-Black Trees** | | |
 | M 5/8 | Binary Tree Traversal |  HWK 3 | HWK 4 |
@@ -43,7 +43,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | **Week 8** | **Heaps** | | |
 | M 5/15 | Group Exam | HWK 4 | Group Exam Revisions |
 | W 5/17 | Heaps | Persuall | |
-| F 5/19 | _TBD_ | | |
+| F 5/19 | _No class: Attend BioFest & get caught up!_ | | |
 | **Week 9** | **Hashing and HashMaps** | | | 
 | M 5/22 | Individual Exam  | Group Exam Revisions | |
 | W 5/24 | Hash Tables | Persuall | |
@@ -71,6 +71,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [w5d2]: https://alackles.github.io/CMSC-270-ST-23/notes/05/searchsort/
 [w5d3]: https://alackles.github.io/CMSC-270-ST-23/notes/05/searchsortcomp/
 [w6d1]: https://alackles.github.io/CMSC-270-ST-23/notes/06/bintree/
+[w6d2]: https://alackles.github.io/CMSC-270-ST-23/notes/06/binsearchtree/
 
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
 [ge1soln]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1-solutions/
