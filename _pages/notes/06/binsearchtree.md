@@ -1,6 +1,6 @@
 ---
 title: Binary Trees
-permalink: /notes/06/bintree/
+permalink: /notes/06/binsearchtree/
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
