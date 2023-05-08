@@ -37,7 +37,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | W 5/3 | [Binary Search Trees][w6d2] | Persuall | | |
 | F 5/5 | _NO CLASS: Reading Period_ | | |
 | **Week 7** | **AVL and Red-Black Trees** | | |
-| M 5/8 | Binary Tree Traversal |  HWK 3 | HWK 4 |
+| M 5/8 | Binary Tree Traversal |  HWK 3 | [HWK 4][hwk4] |
 | W 5/10 | AVL & Red-Black Trees | Persuall | |
 | F 5/12 | Red-Black Trees | | |
 | **Week 8** | **Heaps** | | |
@@ -59,6 +59,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [hwk1]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk1
 [hwk2]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk2
 [hwk3]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk3
+[hwk4]: https://alackles.github.io/CMSC-270-ST-23/homework/hwk4
 
 [w1d2]: https://alackles.github.io/CMSC-270-ST-23/notes/01/math/
 [w1d3]: https://alackles.github.io/CMSC-270-ST-23/notes/01/cpp/
