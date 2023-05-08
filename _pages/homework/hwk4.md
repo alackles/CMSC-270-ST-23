@@ -34,4 +34,6 @@ To ensure that your implementation is working properly, you should add a `showNo
 
 It is up to you to determine how you want `showNode(x)` to display in the command line.
 
+## Question 3: Searching Binary Search Trees
 
+For class on Monday, you wrote a search algorithm. Use this algorithm to create a function called either `bfs_traverse()` or `dfs_traverse()` which visits every node in the tree and prints the nodes in order of first visit. The name should reflect which search you are actually doing.
