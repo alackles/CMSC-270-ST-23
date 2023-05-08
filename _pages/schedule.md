@@ -73,7 +73,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [w5d3]: https://alackles.github.io/CMSC-270-ST-23/notes/05/searchsortcomp/
 [w6d1]: https://alackles.github.io/CMSC-270-ST-23/notes/06/bintree/
 [w6d2]: https://alackles.github.io/CMSC-270-ST-23/notes/06/binsearchtree/
-[w7d1]: https://alackles.github.io/CMSC-270-ST-23/notes/06/bfs-dfs/
+[w7d1]: https://alackles.github.io/CMSC-270-ST-23/notes/07/bfs-dfs/
 
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
 [ge1soln]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1-solutions/
