@@ -38,7 +38,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 5/5 | _NO CLASS: Reading Period_ | | |
 | **Week 7** | **AVL and Red-Black Trees** | | |
 | M 5/8 | [Binary Tree Traversal][w7d1] |  HWK 3 | [HWK 4][hwk4] |
-| W 5/10 | Red-Black Trees | Persuall | |
+| W 5/10 | [Red-Black Trees][w7d2] | Persuall | |
 | F 5/12 | Red-Black Trees | | |
 | **Week 8** | **Heaps** | | |
 | M 5/15 | Group Exam | HWK 4 | Group Exam Revisions |
@@ -74,6 +74,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [w6d1]: https://alackles.github.io/CMSC-270-ST-23/notes/06/bintree/
 [w6d2]: https://alackles.github.io/CMSC-270-ST-23/notes/06/binsearchtree/
 [w7d1]: https://alackles.github.io/CMSC-270-ST-23/notes/07/bfs-dfs/
+[w7d1]: https://alackles.github.io/CMSC-270-ST-23/notes/07/rbt.pdf
 
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
 [ge1soln]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1-solutions/
