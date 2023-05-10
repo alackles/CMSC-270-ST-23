@@ -38,7 +38,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 5/5 | _NO CLASS: Reading Period_ | | |
 | **Week 7** | **AVL and Red-Black Trees** | | |
 | M 5/8 | [Binary Tree Traversal][w7d1] |  HWK 3 | [HWK 4][hwk4] |
-| W 5/10 | AVL & Red-Black Trees | Persuall | |
+| W 5/10 | Red-Black Trees | Persuall | |
 | F 5/12 | Red-Black Trees | | |
 | **Week 8** | **Heaps** | | |
 | M 5/15 | Group Exam | HWK 4 | Group Exam Revisions |
