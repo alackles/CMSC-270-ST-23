@@ -54,9 +54,9 @@ function InsertionSort(list A)
     for i from 1 to A.length-1
         
         valueToInsert = A[i]
-        previousIndex = i-1
+        prevIndex = i-1
         
-        while prevIndex >= 0 and key < A[prevIndex]:
+        while prevIndex >= 0 and valueToInsert < A[prevIndex]:
             A[prevIndex+1] = A[prevIndex]
             prevIndex = prevIndex - 1
         end while
