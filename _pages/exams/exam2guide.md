@@ -1,6 +1,6 @@
 ---
-title: Individual Exam 1
-permalink: /exams/exam1guide/
+title: Individual Exam 2
+permalink: /exams/exam2guide/
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
