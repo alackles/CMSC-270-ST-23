@@ -5,12 +5,10 @@
 class OrderBoard {
 
     std::set<int> boardDisplay;
-    int n;
 
 public: 
 
     OrderBoard() {
-        n = 0;
     }
 
     ~OrderBoard() {}
@@ -18,13 +16,11 @@ public:
     void addOrder(int x) {
         x = x % 100; // takes the final two numbers only
         boardDisplay.insert(x);
-        n++;
         display();
     }
 
     void removeOrder(int x) {
         boardDisplay.erase(x);
-        n--;
         display();
     }
 
@@ -36,7 +32,7 @@ public:
     }
 
     int getN() {
-        return n;
+        return boardDisplay.size();
     }
 
 };
