@@ -42,7 +42,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 5/12 | [STL Set and Vector][w7d3] | | |
 | **Week 8** | **Heaps** | | |
 | M 5/15 | [Group Exam][ge2] | HWK 4 | Group Exam Revisions |
-| W 5/17 | Heaps | Persuall | |
+| W 5/17 | [Heaps][w8d2] | Persuall | |
 | F 5/19 | _No class: Attend BioFest & get caught up!_ | | |
 | **Week 9** | **Hashing and HashMaps** | | | 
 | M 5/22 | Individual Exam  | Group Exam Revisions | |
@@ -76,6 +76,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [w7d1]: https://alackles.github.io/CMSC-270-ST-23/notes/07/bfs-dfs/
 [w7d2]: https://alackles.github.io/CMSC-270-ST-23/assets/rbt.pdf
 [w7d3]: https://alackles.github.io/CMSC-270-ST-23/notes/07/stl/
+[w8d2]: https://alackles.github.io/CMSC-270-ST-23/notes/08/heap/
 
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
 [ge2]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam2/
