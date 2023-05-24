@@ -46,7 +46,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 5/19 | _No class: Attend BioFest & get caught up!_ | | |
 | **Week 9** | **Hashing and HashMaps** | | | 
 | M 5/22 | Individual Exam ([(guide)][exam2guide]) | Group Exam Revisions | |
-| W 5/24 | [Hash Tables](w9d2) | Persuall | |
+| W 5/24 | [Hash Tables][w9d2] | Persuall | |
 | F 5/26 | Hash Maps | Persuall | |
 | **Week 10** | **Search and Sort Round 2** | | |
 | M 5/29 | _NO CLASS: Memorial Day_ | | | 
