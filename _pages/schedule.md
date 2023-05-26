@@ -47,7 +47,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | **Week 9** | **Hashing and HashMaps** | | | 
 | M 5/22 | Individual Exam ([(guide)][exam2guide]) | Group Exam Revisions | |
 | W 5/24 | [Hash Tables][w9d2] | Persuall | |
-| F 5/26 | Hash Maps | Persuall | |
+| F 5/26 | [Hash Maps][w9d3] | Persuall | |
 | **Week 10** | **Search and Sort Round 2** | | |
 | M 5/29 | _NO CLASS: Memorial Day_ | | | 
 | W 5/31 | Searching & Sorting | | | 
@@ -78,6 +78,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 [w7d3]: https://alackles.github.io/CMSC-270-ST-23/notes/07/stl/
 [w8d2]: https://alackles.github.io/CMSC-270-ST-23/notes/08/heap/
 [w9d2]: https://alackles.github.io/CMSC-270-ST-23/notes/09/hash/
+[w9d3]: https://alackles.github.io/CMSC-270-ST-23/notes/09/hash2/
 
 [ge1]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam1/
 [ge2]: https://alackles.github.io/CMSC-270-ST-23/exams/groupexam2/
