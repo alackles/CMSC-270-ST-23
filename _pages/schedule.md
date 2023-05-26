@@ -8,6 +8,8 @@ This is a rough schedule of topics for each day, and the release and due dates f
 
 "Perusall" means there is reading due that day on Perusall. All reading is due **before** class time on that day.
 
+[Supplemental Algorithms Videos](https://emilydolson.github.io/CSE-830-SS-22/schedule/)
+
 [Data Structures Database](https://alackles.github.io/CMSC-270-ST-23/notes/database/)
 
 | Date	| Topics	| Due (Before Class) |	Assigned (After Class) |
@@ -50,8 +52,8 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 5/26 | [Hash Maps][w9d3] | Persuall | |
 | **Week 10** | **Search and Sort Round 2** | | |
 | M 5/29 | _NO CLASS: Memorial Day_ | | | 
-| W 5/31 | Searching & Sorting | | | 
-| F 6/2 | Search and Sort Rematch | |
+| W 5/31 | Searching & Sorting Pt 2 | | | 
+| F 6/2 | Final Portfolio Work | |
 
 **Final Portfolios Due Wednesday 6/7 by 5:30 PM**
 
