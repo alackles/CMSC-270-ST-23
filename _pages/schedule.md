@@ -50,7 +50,7 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | M 5/22 | Individual Exam ([(guide)][exam2guide]) | Group Exam Revisions | |
 | W 5/24 | [Hash Tables][w9d2] | Persuall | |
 | F 5/26 | [Hash Maps][w9d3] | Persuall | |
-| **Week 10** | **Search and Sort Round 2** | | |
+| **Week 10** | **Wrap Up** | | |
 | M 5/29 | _NO CLASS: Memorial Day_ | | | 
 | W 5/31 | Data Structures Review Day | | | 
 | F 6/2 | Evals + Portfolio Work | |
