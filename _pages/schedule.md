@@ -52,8 +52,8 @@ This is a rough schedule of topics for each day, and the release and due dates f
 | F 5/26 | [Hash Maps][w9d3] | Persuall | |
 | **Week 10** | **Search and Sort Round 2** | | |
 | M 5/29 | _NO CLASS: Memorial Day_ | | | 
-| W 5/31 | Searching & Sorting Pt 2 | | | 
-| F 6/2 | Final Portfolio Work | |
+| W 5/31 | Data Structures Review Day | | | 
+| F 6/2 | Evals + Portfolio Work | |
 
 **Final Portfolios Due Wednesday 6/7 by 5:30 PM**
 
